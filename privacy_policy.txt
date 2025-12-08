@@ -1,0 +1,47 @@
+Privacy Policy for Descify
+Last updated: December 1, 2025
+
+This Privacy Policy describes how Descify ("the App," "we," "us," or "our") collects, uses, and discloses your Personal Information when you install or use the App in connection with your Shopify-supported store.
+
+1. Information We Collect
+When you install the App, we are automatically able to access certain types of information from your Shopify account:
+
+Merchant Information: We collect your name, email address, and shop URL to authenticate your access and provide customer support.
+
+Product Data: To generate product descriptions, we access your store's product information, including product titles, existing descriptions, tags, and images.
+
+2. How We Use Your Information
+We use the personal information we collect from you and your customers in order to provide the Service and to operate the App. Specifically, we use it to:
+
+Generate Content: We use your product data as input to generate optimized product descriptions and SEO content using Artificial Intelligence (AI).
+
+App Functionality: To maintain your settings, subscription status, and usage history.
+
+Communication: To communicate with you about the App, including updates, support, and billing inquiries.
+
+3. Sharing Your Information (AI & Third Parties)
+We respect your privacy and do not sell your personal data. However, to provide our services, we share data with the following third parties:
+
+Shopify: We share information with Shopify to power the App's integration with your store.
+
+AI Service Providers: Qwen
+
+Usage: We transmit product data (titles, keywords, current descriptions) to our AI provider to generate the text.
+
+Data Safety: We do not use your data to train public AI models, and our providers are compliant with data privacy standards.
+
+Legal Compliance: We may disclose your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.
+
+4. Data Retention
+We retain your Personal Information and generated content only for as long as necessary to provide you with our Services or as required by law. If you uninstall the App, we will delete your stored data in accordance with Shopify’s data retention policies.
+
+5. Your Rights (GDPR / CCPA)
+If you are located in Europe (GDPR) or California (CCPA), you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.
+
+Since we operate through the Shopify platform, we also adhere to Shopify's comprehensive data processing addendum.
+
+6. Changes
+We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.
+
+7. Contact Us
+For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at: contact@getbestify.com
