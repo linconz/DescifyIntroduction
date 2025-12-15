@@ -1,0 +1,102 @@
+[
+    {
+        "native": "English",
+        "english": "English",
+        "chinese": "英语"
+    },
+    {
+        "native": "Español",
+        "english": "Spanish",
+        "chinese": "西班牙语"
+    },
+    {
+        "native": "Deutsch",
+        "english": "German",
+        "chinese": "德语"
+    },
+    {
+        "native": "Français",
+        "english": "French",
+        "chinese": "法语"
+    },
+    {
+        "native": "Nederlands",
+        "english": "Dutch",
+        "chinese": "荷兰语"
+    },
+    {
+        "native": "Português (Brazil)",
+        "english": "Portuguese (Brazil)",
+        "chinese": "葡萄牙语（巴西）"
+    },
+    {
+        "native": "Italiano",
+        "english": "Italian",
+        "chinese": "意大利语"
+    },
+    {
+        "native": "简体中文",
+        "english": "Simplified Chinese",
+        "chinese": "简体中文"
+    },
+    {
+        "native": "繁體中文",
+        "english": "Traditional Chinese",
+        "chinese": "繁体中文"
+    },
+    {
+        "native": "日本語",
+        "english": "Japanese",
+        "chinese": "日语"
+    },
+    {
+        "native": "한국어",
+        "english": "Korean",
+        "chinese": "韩语"
+    },
+    {
+        "native": "Polski",
+        "english": "Polish",
+        "chinese": "波兰语"
+    },
+    {
+        "native": "Svenska",
+        "english": "Swedish",
+        "chinese": "瑞典语"
+    },
+    {
+        "native": "Dansk",
+        "english": "Danish",
+        "chinese": "丹麦语"
+    },
+    {
+        "native": "Norsk (Bokmål)",
+        "english": "Norwegian (Bokmål)",
+        "chinese": "挪威语（书面挪威语）"
+    },
+    {
+        "native": "Türkçe",
+        "english": "Turkish",
+        "chinese": "土耳其语"
+    },
+    {
+        "native": "Suomi",
+        "english": "Finnish",
+        "chinese": "芬兰语"
+    },
+    {
+        "native": "Čeština",
+        "english": "Czech",
+        "chinese": "捷克语"
+    },
+    {
+        "native": "ไทย",
+        "english": "Thai",
+        "chinese": "泰语"
+    },
+    {
+        "native": "Português (Portugal)",
+        "english": "Portuguese (Portugal)",
+        "chinese": "葡萄牙语（葡萄牙）"
+    }
+]
