@@ -13,6 +13,7 @@ const languageConfig = {
         contactUs: '联系我们',
         copyright: '版权所有',
         nav: {
+            title: '导航',
             home: '首页',
             product: '产品选择',
             history: '历史记录',
@@ -23,109 +24,235 @@ const languageConfig = {
         lang: 'zh-Hant',
         title: 'Descify：AI 驅動的 Shopify 產品描述生成器',
         contactUs: '聯繫我們',
-        copyright: '版權所有'
+        copyright: '版權所有',
+        nav: {
+            title: '導航',
+            home: '首頁',
+            product: '產品選擇',
+            history: '歷史記錄',
+            contact: '聯繫我們'
+        }
     },
     'ja': {
         lang: 'ja',
         title: 'Descify：AI駆動のShopify商品説明ジェネレーター',
         contactUs: 'お問い合わせ',
-        copyright: '全著作権所有'
+        copyright: '全著作権所有',
+        nav: {
+            title: 'ナビゲーション',
+            home: 'ホームページ',
+            product: '商品選択',
+            history: '履歴',
+            contact: 'お問い合わせ'
+        }
     },
     'ko': {
         lang: 'ko',
         title: 'Descify: AI 기반 Shopify 제품 설명 생성기',
         contactUs: '문의하기',
-        copyright: '모든 권리 보유'
+        copyright: '모든 권리 보유',
+        nav: {
+            title: '탐색',
+            home: '홈페이지',
+            product: '제품 선택',
+            history: '기록',
+            contact: '문의하기'
+        }
     },
     'fr': {
         lang: 'fr',
         title: 'Descify : Générateur de descriptions de produits Shopify alimenté par l\'IA',
         contactUs: 'Contactez-nous',
-        copyright: 'Tous droits réservés'
+        copyright: 'Tous droits réservés',
+        nav: {
+            title: 'Navigation',
+            home: 'Page d\'accueil',
+            product: 'Sélection de produits',
+            history: 'Historique',
+            contact: 'Contactez-nous'
+        }
     },
     'de': {
         lang: 'de',
         title: 'Descify: KI-gestützter Shopify Produktbeschreibungsgenerator',
         contactUs: 'Kontaktieren Sie uns',
-        copyright: 'Alle Rechte vorbehalten'
+        copyright: 'Alle Rechte vorbehalten',
+        nav: {
+            title: 'Navigation',
+            home: 'Startseite',
+            product: 'Produktauswahl',
+            history: 'Verlauf',
+            contact: 'Kontaktieren Sie uns'
+        }
     },
     'es': {
         lang: 'es',
         title: 'Descify: Generador de descripciones de productos de Shopify impulsado por IA',
         contactUs: 'Contáctenos',
-        copyright: 'Todos los derechos reservados'
+        copyright: 'Todos los derechos reservados',
+        nav: {
+            title: 'Navegación',
+            home: 'Página de inicio',
+            product: 'Selección de productos',
+            history: 'Historial',
+            contact: 'Contáctenos'
+        }
     },
     'pt': {
         lang: 'pt',
         title: 'Descify: Gerador de Descrições de Produtos Shopify com IA',
         contactUs: 'Entre em contato',
-        copyright: 'Todos os direitos reservados'
+        copyright: 'Todos os direitos reservados',
+        nav: {
+            title: 'Navegação',
+            home: 'Página inicial',
+            product: 'Seleção de produtos',
+            history: 'Histórico',
+            contact: 'Entre em contato'
+        }
     },
     'it': {
         lang: 'it',
         title: 'Descify: Generatore di descrizioni prodotti Shopify basato su IA',
         contactUs: 'Contattaci',
-        copyright: 'Tutti i diritti riservati'
+        copyright: 'Tutti i diritti riservati',
+        nav: {
+            title: 'Navigazione',
+            home: 'Pagina iniziale',
+            product: 'Selezione prodotti',
+            history: 'Cronologia',
+            contact: 'Contattaci'
+        }
     },
     'ru': {
         lang: 'ru',
         title: 'Descify: Генератор описаний товаров Shopify на основе ИИ',
         contactUs: 'Свяжитесь с нами',
-        copyright: 'Все права защищены'
+        copyright: 'Все права защищены',
+        nav: {
+            title: 'Навигация',
+            home: 'Главная страница',
+            product: 'Выбор продукта',
+            history: 'История',
+            contact: 'Свяжитесь с нами'
+        }
     },
     'ar': {
         lang: 'ar',
         title: 'Descify: مولد وصف منتجات Shopify المدعوم بالذكاء الاصطناعي',
         contactUs: 'اتصل بنا',
-        copyright: 'جميع الحقوق محفوظة'
+        copyright: 'جميع الحقوق محفوظة',
+        nav: {
+            title: 'التنقل',
+            home: 'الصفحة الرئيسية',
+            product: 'اختيار المنتج',
+            history: 'السجل',
+            contact: 'اتصل بنا'
+        }
     },
     'nl': {
         lang: 'nl',
         title: 'Descify: AI-aangedreven Shopify productbeschrijvingsgenerator',
         contactUs: 'Neem contact op',
-        copyright: 'Alle rechten voorbehouden'
+        copyright: 'Alle rechten voorbehouden',
+        nav: {
+            title: 'Navigatie',
+            home: 'Startpagina',
+            product: 'Productselectie',
+            history: 'Geschiedenis',
+            contact: 'Neem contact op'
+        }
     },
     'pl': {
         lang: 'pl',
         title: 'Descify: Generator opisów produktów Shopify oparty na AI',
         contactUs: 'Skontaktuj się z nami',
-        copyright: 'Wszelkie prawa zastrzeżone'
+        copyright: 'Wszelkie prawa zastrzeżone',
+        nav: {
+            title: 'Nawigacja',
+            home: 'Strona główna',
+            product: 'Wybór produktu',
+            history: 'Historia',
+            contact: 'Skontaktuj się z nami'
+        }
     },
     'tr': {
         lang: 'tr',
         title: 'Descify: Yapay Zeka Destekli Shopify Ürün Açıklama Oluşturucu',
         contactUs: 'Bize ulaşın',
-        copyright: 'Tüm hakları saklıdır'
+        copyright: 'Tüm hakları saklıdır',
+        nav: {
+            title: 'Gezinme',
+            home: 'Ana sayfa',
+            product: 'Ürün seçimi',
+            history: 'Geçmiş',
+            contact: 'Bize ulaşın'
+        }
     },
     'sv': {
         lang: 'sv',
         title: 'Descify: AI-driven Shopify produktbeskrivningsgenerator',
         contactUs: 'Kontakta oss',
-        copyright: 'Alla rättigheter förbehållna'
+        copyright: 'Alla rättigheter förbehållna',
+        nav: {
+            title: 'Navigation',
+            home: 'Startsida',
+            product: 'Produktval',
+            history: 'Historik',
+            contact: 'Kontakta oss'
+        }
     },
     'da': {
         lang: 'da',
         title: 'Descify: AI-drevet Shopify produktbeskrivelsegenerator',
         contactUs: 'Kontakt os',
-        copyright: 'Alle rettigheder forbeholdes'
+        copyright: 'Alle rettigheder forbeholdes',
+        nav: {
+            title: 'Navigation',
+            home: 'Forside',
+            product: 'Produktvalg',
+            history: 'Historik',
+            contact: 'Kontakt os'
+        }
     },
     'fi': {
         lang: 'fi',
         title: 'Descify: Tekoälyavusteinen Shopify tuotekuvausgeneraattori',
         contactUs: 'Ota yhteyttä',
-        copyright: 'Kaikki oikeudet pidätetään'
+        copyright: 'Kaikki oikeudet pidätetään',
+        nav: {
+            title: 'Navigointi',
+            home: 'Etusivu',
+            product: 'Tuotevalinta',
+            history: 'Historia',
+            contact: 'Ota yhteyttä'
+        }
     },
     'no': {
         lang: 'no',
         title: 'Descify: AI-drevet Shopify produktbeskrivelsegenerator',
         contactUs: 'Kontakt oss',
-        copyright: 'Alle rettigheter reservert'
+        copyright: 'Alle rettigheter reservert',
+        nav: {
+            title: 'Navigasjon',
+            home: 'Hjemmeside',
+            product: 'Produktvalg',
+            history: 'Historikk',
+            contact: 'Kontakt oss'
+        }
     },
     'th': {
         lang: 'th',
         title: 'Descify: เครื่องมือสร้างคำอธิบายผลิตภัณฑ์ Shopify ที่ขับเคลื่อนด้วย AI',
         contactUs: 'ติดต่อเรา',
-        copyright: 'สงวนลิขสิทธิ์'
+        copyright: 'สงวนลิขสิทธิ์',
+        nav: {
+            title: 'การนำทาง',
+            home: 'หน้าแรก',
+            product: 'การเลือกผลิตภัณฑ์',
+            history: 'ประวัติ',
+            contact: 'ติดต่อเรา'
+        }
     }
 };
 
@@ -177,6 +304,7 @@ languageDirs.forEach(langCode => {
         contactUs: 'Contact us',
         copyright: 'All rights reserved',
         nav: {
+            title: 'Navigation',
             home: 'Home Page',
             product: 'Product Selection',
             history: 'History',
@@ -425,10 +553,11 @@ languageDirs.forEach(langCode => {
             position: absolute;
             top: 100%;
             right: 0;
-            margin-top: 4px;
+            margin-top: 0;
             background: white;
             border: 1px solid #d0d7de;
-            border-radius: 6px;
+            border-radius: 0 0 6px 6px;
+            border-top: none;
             box-shadow: 0 8px 24px rgba(140, 149, 159, 0.2);
             min-width: 180px;
             max-height: 400px;
@@ -457,6 +586,10 @@ languageDirs.forEach(langCode => {
             background: #ddf4ff;
             color: #0969da;
             font-weight: 600;
+        }
+
+        .language-switcher:hover .lang-toggle {
+            border-radius: 6px 6px 0 0;
         }
 
         @media (max-width: 767px) {
@@ -589,7 +722,7 @@ ${htmlContent}
 
     <!-- Side navigation -->
     <nav class="side-nav" id="sideNav">
-        <div class="side-nav-title">Navigation</div>
+        <div class="side-nav-title">${config.nav.title}</div>
         <a href="#section-home" class="side-nav-item" data-section="section-home">${config.nav.home}</a>
         <a href="#section-product" class="side-nav-item" data-section="section-product">${config.nav.product}</a>
         <a href="#section-history" class="side-nav-item" data-section="section-history">${config.nav.history}</a>
