@@ -511,7 +511,7 @@ languageDirs.forEach(langCode => {
         /* Side navigation styles */
         .side-nav {
             position: fixed;
-            top: 45px; /* 与 article 的 padding-top 对齐 */
+            top: 100px; /* 与 article 的 padding-top 对齐 */
             right: max(calc((100vw - 980px) / 2 - 180px), 20px);
             background: white;
             border: 1px solid #d0d7de;
