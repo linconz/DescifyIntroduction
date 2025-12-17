@@ -1,0 +1,12 @@
+{
+  "name": "descify-introduction",
+  "version": "1.0.0",
+  "description": "Generate HTML from Markdown for Descify Introduction",
+  "main": "generate-html.js",
+  "scripts": {
+    "generate": "node generate-html.js"
+  },
+  "dependencies": {
+    "marked": "^11.1.1"
+  }
+}
