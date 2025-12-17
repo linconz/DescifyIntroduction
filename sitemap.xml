@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- English (Main) -->
+    <url>
+        <loc>https://www.getbestify.com/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.getbestify.com/localize/zh-Hans/" />
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.getbestify.com/localize/zh-Hant/" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://www.getbestify.com/localize/ja/" />
+        <xhtml:link rel="alternate" hreflang="ko" href="https://www.getbestify.com/localize/ko/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.getbestify.com/localize/fr/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://www.getbestify.com/localize/de/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.getbestify.com/localize/es/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.getbestify.com/localize/pt/" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.getbestify.com/localize/it/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.getbestify.com/localize/ru/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.getbestify.com/localize/ar/" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.getbestify.com/localize/nl/" />
+        <xhtml:link rel="alternate" hreflang="pl" href="https://www.getbestify.com/localize/pl/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.getbestify.com/localize/tr/" />
+        <xhtml:link rel="alternate" hreflang="sv" href="https://www.getbestify.com/localize/sv/" />
+        <xhtml:link rel="alternate" hreflang="da" href="https://www.getbestify.com/localize/da/" />
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.getbestify.com/localize/fi/" />
+        <xhtml:link rel="alternate" hreflang="no" href="https://www.getbestify.com/localize/no/" />
+        <xhtml:link rel="alternate" hreflang="th" href="https://www.getbestify.com/localize/th/" />
+    </url>
+
+    <!-- Simplified Chinese -->
+    <url>
+        <loc>https://www.getbestify.com/localize/zh-Hans/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.getbestify.com/localize/zh-Hans/" />
+    </url>
+
+    <!-- Traditional Chinese -->
+    <url>
+        <loc>https://www.getbestify.com/localize/zh-Hant/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://www.getbestify.com/localize/zh-Hant/" />
+    </url>
+
+    <!-- Japanese -->
+    <url>
+        <loc>https://www.getbestify.com/localize/ja/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://www.getbestify.com/localize/ja/" />
+    </url>
+
+    <!-- Korean -->
+    <url>
+        <loc>https://www.getbestify.com/localize/ko/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="ko" href="https://www.getbestify.com/localize/ko/" />
+    </url>
+
+    <!-- French -->
+    <url>
+        <loc>https://www.getbestify.com/localize/fr/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.getbestify.com/localize/fr/" />
+    </url>
+
+    <!-- German -->
+    <url>
+        <loc>https://www.getbestify.com/localize/de/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://www.getbestify.com/localize/de/" />
+    </url>
+
+    <!-- Spanish -->
+    <url>
+        <loc>https://www.getbestify.com/localize/es/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.getbestify.com/localize/es/" />
+    </url>
+
+    <!-- Portuguese -->
+    <url>
+        <loc>https://www.getbestify.com/localize/pt/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.getbestify.com/localize/pt/" />
+    </url>
+
+    <!-- Italian -->
+    <url>
+        <loc>https://www.getbestify.com/localize/it/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.getbestify.com/localize/it/" />
+    </url>
+
+    <!-- Russian -->
+    <url>
+        <loc>https://www.getbestify.com/localize/ru/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.getbestify.com/localize/ru/" />
+    </url>
+
+    <!-- Arabic -->
+    <url>
+        <loc>https://www.getbestify.com/localize/ar/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.getbestify.com/localize/ar/" />
+    </url>
+
+    <!-- Dutch -->
+    <url>
+        <loc>https://www.getbestify.com/localize/nl/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.getbestify.com/localize/nl/" />
+    </url>
+
+    <!-- Polish -->
+    <url>
+        <loc>https://www.getbestify.com/localize/pl/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="pl" href="https://www.getbestify.com/localize/pl/" />
+    </url>
+
+    <!-- Turkish -->
+    <url>
+        <loc>https://www.getbestify.com/localize/tr/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.getbestify.com/localize/tr/" />
+    </url>
+
+    <!-- Swedish -->
+    <url>
+        <loc>https://www.getbestify.com/localize/sv/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="sv" href="https://www.getbestify.com/localize/sv/" />
+    </url>
+
+    <!-- Danish -->
+    <url>
+        <loc>https://www.getbestify.com/localize/da/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="da" href="https://www.getbestify.com/localize/da/" />
+    </url>
+
+    <!-- Finnish -->
+    <url>
+        <loc>https://www.getbestify.com/localize/fi/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.getbestify.com/localize/fi/" />
+    </url>
+
+    <!-- Norwegian -->
+    <url>
+        <loc>https://www.getbestify.com/localize/no/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="no" href="https://www.getbestify.com/localize/no/" />
+    </url>
+
+    <!-- Thai -->
+    <url>
+        <loc>https://www.getbestify.com/localize/th/</loc>
+        <lastmod>2025-12-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.getbestify.com/" />
+        <xhtml:link rel="alternate" hreflang="th" href="https://www.getbestify.com/localize/th/" />
+    </url>
+
+</urlset>

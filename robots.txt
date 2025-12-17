@@ -1,0 +1,56 @@
+# robots.txt for Descify - AI-Powered Shopify Product Description Generator
+# Website: https://www.getbestify.com
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.getbestify.com/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+# Crawl-delay: 1
+
+# Specific rules for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Baidu (important for Chinese market)
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Allow crawling of all language versions
+Allow: /localize/
+
+# Allow crawling of images
+Allow: /images/
+
+# Disallow crawling of development/system files (if any)
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.DS_Store
+Disallow: /*.json$
+
+# Host (specify preferred domain)
+# Host: https://www.getbestify.com
