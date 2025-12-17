@@ -142,6 +142,7 @@
             max-width: 980px;
             margin: 0 auto;
             padding: 45px;
+            position: relative; /* 添加相对定位，使语言切换器相对于此容器定位 */
         }
 
         .markdown-body img {
@@ -173,15 +174,221 @@
             padding-top: 20px;
             border-top: 1px solid #eaecef;
         }
+
+        /* Language switcher styles */
+        .language-switcher {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        .lang-toggle {
+            background: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: background 0.2s;
+        }
+
+        .lang-toggle:hover {
+            background: #eaeef2;
+        }
+
+        .lang-toggle::after {
+            content: '▼';
+            font-size: 10px;
+        }
+
+        .lang-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 4px;
+            background: white;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            box-shadow: 0 8px 24px rgba(140, 149, 159, 0.2);
+            min-width: 180px;
+            max-height: 400px;
+            overflow-y: auto;
+            padding: 4px 0;
+        }
+
+        .language-switcher:hover .lang-dropdown {
+            display: block;
+        }
+
+        .lang-option {
+            display: block;
+            padding: 8px 16px;
+            color: #24292f;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        .lang-option:hover {
+            background: #f6f8fa;
+        }
+
+        .lang-option.current {
+            background: #ddf4ff;
+            color: #0969da;
+            font-weight: 600;
+        }
+
+        @media (max-width: 767px) {
+            .language-switcher {
+                top: 10px;
+                right: 10px;
+            }
+
+            .lang-toggle {
+                padding: 6px 10px;
+                font-size: 13px;
+            }
+
+            .lang-dropdown {
+                max-height: 300px;
+                min-width: 150px;
+            }
+        }
+
+        /* Back to top button styles */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: #0969da;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(9, 105, 218, 0.3);
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+
+        .back-to-top:hover {
+            background: #0550ae;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(9, 105, 218, 0.4);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        @media (max-width: 767px) {
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+            }
+        }
+
+        /* Side navigation styles */
+        .side-nav {
+            position: fixed;
+            top: 45px; /* 与 article 的 padding-top 对齐 */
+            right: max(calc((100vw - 980px) / 2 - 180px), 20px);
+            background: white;
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+            padding: 16px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            z-index: 998;
+            min-width: 160px;
+        }
+
+        .side-nav-title {
+            padding: 0 16px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #656d76;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #d0d7de;
+            margin-bottom: 8px;
+        }
+
+        .side-nav-item {
+            display: block;
+            padding: 8px 16px;
+            color: #24292f;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.2s;
+            border-left: 3px solid transparent;
+        }
+
+        .side-nav-item:hover {
+            background: #f6f8fa;
+            color: #0969da;
+        }
+
+        .side-nav-item.active {
+            background: #ddf4ff;
+            color: #0969da;
+            border-left-color: #0969da;
+            font-weight: 600;
+        }
+
+        @media (max-width: 1400px) {
+            .side-nav {
+                display: none;
+            }
+        }
     </style>
 </head>
 
 <body>
     <article class="markdown-body">
+        <div class="language-switcher">
+            <div class="lang-toggle">Italiano</div>
+            <div class="lang-dropdown">
+                <a href="/index.html" class="lang-option">English</a>
+                <a href="/localize/es/index.html" class="lang-option">Español</a>
+                <a href="/localize/de/index.html" class="lang-option">Deutsch</a>
+                <a href="/localize/fr/index.html" class="lang-option">Français</a>
+                <a href="/localize/nl/index.html" class="lang-option">Nederlands</a>
+                <a href="/localize/pt/index.html" class="lang-option">Português</a>
+                <a href="/localize/it/index.html" class="lang-option current">Italiano</a>
+                <a href="/localize/zh-Hans/index.html" class="lang-option">简体中文</a>
+                <a href="/localize/zh-Hant/index.html" class="lang-option">繁體中文</a>
+                <a href="/localize/ja/index.html" class="lang-option">日本語</a>
+                <a href="/localize/ko/index.html" class="lang-option">한국어</a>
+                <a href="/localize/pl/index.html" class="lang-option">Polski</a>
+                <a href="/localize/sv/index.html" class="lang-option">Svenska</a>
+                <a href="/localize/da/index.html" class="lang-option">Dansk</a>
+                <a href="/localize/no/index.html" class="lang-option">Norsk</a>
+                <a href="/localize/tr/index.html" class="lang-option">Türkçe</a>
+                <a href="/localize/fi/index.html" class="lang-option">Suomi</a>
+                <a href="/localize/th/index.html" class="lang-option">ไทย</a>
+                <a href="/localize/ar/index.html" class="lang-option">العربية</a>
+                <a href="/localize/ru/index.html" class="lang-option">Русский</a>
+            </div>
+        </div>
 <h1>Descify: Generatore di descrizioni di prodotti Shopify basato su IA</h1>
 <p><strong>Descify</strong> è un&#39;applicazione Shopify completa progettata per automatizzare e ottimizzare il processo di copywriting per i commercianti di e-commerce. Sfruttando l&#39;IA avanzata, Descify aiuta i proprietari di negozi a generare descrizioni di prodotti di alta qualità, ottimizzate per SEO e focalizzate sulla conversione in massa, risparmiando ore di lavoro manuale.</p>
 <h2>🚀 Panoramica delle funzionalità principali</h2>
-<h3>1. Pagina iniziale: Approfondimenti a colpo d&#39;occhio</h3>
+<h3 id="section-home">1. Pagina iniziale: Approfondimenti a colpo d&#39;occhio</h3>
 <p>La <strong>pagina iniziale</strong> funge da centro di comando, fornendo una panoramica in tempo reale del tuo utilizzo e dei tuoi risparmi.</p>
 <div align="center">
 
@@ -197,7 +404,7 @@
 <li><strong>Recent History (Cronologia recente)</strong><br>Una visualizzazione rapida delle tue ultime 5 attività di generazione per monitorare i progressi immediati.
 Fai clic qui per navigare alla cronologia di generazione</li>
 </ol>
-<h3>2. Selezione prodotti</h3>
+<h3 id="section-product">2. Selezione prodotti</h3>
 <p>Gestisci facilmente il tuo catalogo e configura le impostazioni di generazione nella vista <strong>Selezione prodotti</strong>.</p>
 <div align="center">
 
@@ -227,7 +434,7 @@ Fai clic qui per navigare alla cronologia di generazione</li>
 <li><strong>Initiate Generation (Avvia generazione)</strong><br>Dopo aver selezionato prodotti, modelli e lingua preferita, fai clic qui per avviare il processo di generazione della descrizione.</li>
 </ol>
 <hr>
-<h3>3. Cronologia</h3>
+<h3 id="section-history">3. Cronologia</h3>
 <p>La <strong>cronologia</strong> è dove rivedi, perfeziona e pubblichi i tuoi contenuti. Offre potenti capacità di filtraggio e modifica.</p>
 <div align="center">
 
@@ -299,10 +506,95 @@ Descify fornisce un editor leggero semplificato.</p>
 </ul>
 <hr>
 
-<p>Contattaci: contact@getbestify.com</p>
+<p id="contact">Contattaci: contact@getbestify.com</p>
 <p>&copy; 2025 Descify powered by Getbestify. Tutti i diritti riservati.</p>
 
     </article>
+
+    <!-- Side navigation -->
+    <nav class="side-nav" id="sideNav">
+        <div class="side-nav-title">Navigation</div>
+        <a href="#section-home" class="side-nav-item" data-section="section-home">Home Page</a>
+        <a href="#section-product" class="side-nav-item" data-section="section-product">Product Selection</a>
+        <a href="#section-history" class="side-nav-item" data-section="section-history">History</a>
+        <a href="#contact" class="side-nav-item" data-section="contact">Contact Us</a>
+    </nav>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script>
+        // Back to top functionality
+        const backToTopButton = document.getElementById('backToTop');
+        
+        // Show/hide button based on scroll position
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+        
+        // Smooth scroll to top when clicked
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Side navigation scroll highlight
+        const navItems = document.querySelectorAll('.side-nav-item');
+        const sections = ['section-home', 'section-product', 'section-history', 'contact'];
+        
+        function updateActiveNav() {
+            let currentSection = '';
+            const scrollPosition = window.pageYOffset + 100;
+            
+            // Find current section
+            sections.forEach(sectionId => {
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        currentSection = sectionId;
+                    }
+                }
+            });
+            
+            // Update active state
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.dataset.section === currentSection) {
+                    item.classList.add('active');
+                }
+            });
+        }
+        
+        // Update on scroll
+        window.addEventListener('scroll', updateActiveNav);
+        
+        // Update on load
+        updateActiveNav();
+        
+        // Smooth scroll for nav links
+        navItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    window.scrollTo({
+                        top: targetSection.offsetTop - 20,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -2,13 +2,22 @@ const fs = require('fs');
 const path = require('path');
 const { marked } = require('marked');
 
+// 读取语言配置文件
+const languagesData = JSON.parse(fs.readFileSync(path.join(__dirname, 'support_languages.json'), 'utf-8'));
+
 // 语言代码到语言配置的映射
 const languageConfig = {
     'zh-Hans': {
         lang: 'zh-Hans',
         title: 'Descify：AI 驱动的 Shopify 产品描述生成器',
         contactUs: '联系我们',
-        copyright: '版权所有'
+        copyright: '版权所有',
+        nav: {
+            home: '首页',
+            product: '产品选择',
+            history: '历史记录',
+            contact: '联系我们'
+        }
     },
     'zh-Hant': {
         lang: 'zh-Hant',
@@ -153,15 +162,45 @@ languageDirs.forEach(langCode => {
     mdContent = mdContent.replace(/---\s*$/m, '').trim();
 
     // 将 Markdown 转换为 HTML
-    const htmlContent = marked(mdContent);
+    let htmlContent = marked(mdContent);
+
+    // 为关键章节添加 ID 锚点（用于导航）
+    // 这些 ID 需要与各语言的标题匹配
+    htmlContent = htmlContent.replace(/<h3>1\.(.*?)<\/h3>/, '<h3 id="section-home">1.$1</h3>');
+    htmlContent = htmlContent.replace(/<h3>2\.(.*?)<\/h3>/, '<h3 id="section-product">2.$1</h3>');
+    htmlContent = htmlContent.replace(/<h3>3\.(.*?)<\/h3>/, '<h3 id="section-history">3.$1</h3>');
 
     // 获取语言配置
     const config = languageConfig[langCode] || {
         lang: langCode,
         title: 'Descify: AI-Powered Shopify Product Description Generator',
         contactUs: 'Contact us',
-        copyright: 'All rights reserved'
+        copyright: 'All rights reserved',
+        nav: {
+            home: 'Home Page',
+            product: 'Product Selection',
+            history: 'History',
+            contact: 'Contact Us'
+        }
     };
+
+    // 确保所有语言都有 nav 配置
+    if (!config.nav) {
+        config.nav = {
+            home: 'Home Page',
+            product: 'Product Selection',
+            history: 'History',
+            contact: 'Contact Us'
+        };
+    }
+
+    // 生成语言切换器 HTML
+    const languageSwitcher = languagesData.map(lang => {
+        const isCurrentLang = lang.code === langCode || (langCode === 'en' && lang.code === 'en');
+        const href = lang.path === '/' ? '/index.html' : `${lang.path}index.html`;
+        const className = isCurrentLang ? 'lang-option current' : 'lang-option';
+        return `<a href="${href}" class="${className}">${lang.native}</a>`;
+    }).join('\n                ');
 
     // HTML 模板
     const htmlTemplate = `<!DOCTYPE html>
@@ -308,6 +347,7 @@ languageDirs.forEach(langCode => {
             max-width: 980px;
             margin: 0 auto;
             padding: 45px;
+            position: relative; /* 添加相对定位，使语言切换器相对于此容器定位 */
         }
 
         .markdown-body img {
@@ -339,16 +379,288 @@ languageDirs.forEach(langCode => {
             padding-top: 20px;
             border-top: 1px solid #eaecef;
         }
+
+        /* Language switcher styles */
+        .language-switcher {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        .lang-toggle {
+            background: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: background 0.2s;
+        }
+
+        .lang-toggle:hover {
+            background: #eaeef2;
+        }
+
+        .lang-toggle::after {
+            content: '▼';
+            font-size: 10px;
+        }
+
+        .lang-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 4px;
+            background: white;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            box-shadow: 0 8px 24px rgba(140, 149, 159, 0.2);
+            min-width: 180px;
+            max-height: 400px;
+            overflow-y: auto;
+            padding: 4px 0;
+        }
+
+        .language-switcher:hover .lang-dropdown {
+            display: block;
+        }
+
+        .lang-option {
+            display: block;
+            padding: 8px 16px;
+            color: #24292f;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        .lang-option:hover {
+            background: #f6f8fa;
+        }
+
+        .lang-option.current {
+            background: #ddf4ff;
+            color: #0969da;
+            font-weight: 600;
+        }
+
+        @media (max-width: 767px) {
+            .language-switcher {
+                top: 10px;
+                right: 10px;
+            }
+
+            .lang-toggle {
+                padding: 6px 10px;
+                font-size: 13px;
+            }
+
+            .lang-dropdown {
+                max-height: 300px;
+                min-width: 150px;
+            }
+        }
+
+        /* Back to top button styles */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: #0969da;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(9, 105, 218, 0.3);
+            transition: all 0.3s ease;
+            z-index: 999;
+        }
+
+        .back-to-top:hover {
+            background: #0550ae;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(9, 105, 218, 0.4);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        @media (max-width: 767px) {
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+            }
+        }
+
+        /* Side navigation styles */
+        .side-nav {
+            position: fixed;
+            top: 45px; /* 与 article 的 padding-top 对齐 */
+            right: max(calc((100vw - 980px) / 2 - 180px), 20px);
+            background: white;
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+            padding: 16px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            z-index: 998;
+            min-width: 160px;
+        }
+
+        .side-nav-title {
+            padding: 0 16px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #656d76;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #d0d7de;
+            margin-bottom: 8px;
+        }
+
+        .side-nav-item {
+            display: block;
+            padding: 8px 16px;
+            color: #24292f;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.2s;
+            border-left: 3px solid transparent;
+        }
+
+        .side-nav-item:hover {
+            background: #f6f8fa;
+            color: #0969da;
+        }
+
+        .side-nav-item.active {
+            background: #ddf4ff;
+            color: #0969da;
+            border-left-color: #0969da;
+            font-weight: 600;
+        }
+
+        @media (max-width: 1400px) {
+            .side-nav {
+                display: none;
+            }
+        }
     </style>
 </head>
 
 <body>
     <article class="markdown-body">
+        <div class="language-switcher">
+            <div class="lang-toggle">${config.lang === 'en' ? 'English' : languagesData.find(l => l.code === langCode)?.native || config.lang}</div>
+            <div class="lang-dropdown">
+                ${languageSwitcher}
+            </div>
+        </div>
 ${htmlContent}
-<p>${config.contactUs}: contact@getbestify.com</p>
+<p id="contact">${config.contactUs}: contact@getbestify.com</p>
 <p>&copy; 2025 Descify powered by Getbestify. ${config.copyright}.</p>
 
     </article>
+
+    <!-- Side navigation -->
+    <nav class="side-nav" id="sideNav">
+        <div class="side-nav-title">Navigation</div>
+        <a href="#section-home" class="side-nav-item" data-section="section-home">${config.nav.home}</a>
+        <a href="#section-product" class="side-nav-item" data-section="section-product">${config.nav.product}</a>
+        <a href="#section-history" class="side-nav-item" data-section="section-history">${config.nav.history}</a>
+        <a href="#contact" class="side-nav-item" data-section="contact">${config.nav.contact}</a>
+    </nav>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script>
+        // Back to top functionality
+        const backToTopButton = document.getElementById('backToTop');
+        
+        // Show/hide button based on scroll position
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+        
+        // Smooth scroll to top when clicked
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Side navigation scroll highlight
+        const navItems = document.querySelectorAll('.side-nav-item');
+        const sections = ['section-home', 'section-product', 'section-history', 'contact'];
+        
+        function updateActiveNav() {
+            let currentSection = '';
+            const scrollPosition = window.pageYOffset + 100;
+            
+            // Find current section
+            sections.forEach(sectionId => {
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        currentSection = sectionId;
+                    }
+                }
+            });
+            
+            // Update active state
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.dataset.section === currentSection) {
+                    item.classList.add('active');
+                }
+            });
+        }
+        
+        // Update on scroll
+        window.addEventListener('scroll', updateActiveNav);
+        
+        // Update on load
+        updateActiveNav();
+        
+        // Smooth scroll for nav links
+        navItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    window.scrollTo({
+                        top: targetSection.offsetTop - 20,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>`;
