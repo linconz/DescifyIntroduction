@@ -144,4 +144,4 @@
 
 ---
 
-&copy; 2025 Descify powered by Getbestify สงวนลิขสิทธิ์
+&copy; 2025 Descify powered by GetBestify สงวนลิขสิทธิ์

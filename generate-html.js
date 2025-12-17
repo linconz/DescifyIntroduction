@@ -583,7 +583,7 @@ languageDirs.forEach(langCode => {
         </div>
 ${htmlContent}
 <p id="contact">${config.contactUs}: contact@getbestify.com</p>
-<p>&copy; 2025 Descify powered by Getbestify. ${config.copyright}.</p>
+<p>&copy; 2025 Descify powered by GetBestify. ${config.copyright}.</p>
 
     </article>
 

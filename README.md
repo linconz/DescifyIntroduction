@@ -142,4 +142,4 @@ The **History** is where you review, refine, and publish your content. It offers
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. All rights reserved.
+&copy; 2025 Descify powered by GetBestify. All rights reserved.

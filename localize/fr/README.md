@@ -144,4 +144,4 @@ L'**historique** est l'endroit où vous examinez, affinez et publiez votre conte
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Tous droits réservés.
+&copy; 2025 Descify powered by GetBestify. Tous droits réservés.

@@ -144,4 +144,4 @@ De **geschiedenis** is waar u uw inhoud beoordeelt, verfijnt en publiceert. Het 
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Alle rechten voorbehouden.
+&copy; 2025 Descify powered by GetBestify. Alle rechten voorbehouden.

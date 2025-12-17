@@ -143,4 +143,4 @@
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Tüm hakları saklıdır.
+&copy; 2025 Descify powered by GetBestify. Tüm hakları saklıdır.

@@ -144,4 +144,4 @@ La **cronologia** è dove rivedi, perfeziona e pubblichi i tuoi contenuti. Offre
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Tutti i diritti riservati.
+&copy; 2025 Descify powered by GetBestify. Tutti i diritti riservati.

@@ -144,4 +144,4 @@ Administrer nemt dit katalog og konfigurer genereringsindstillinger i **Produktv
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Alle rettigheder forbeholdes.
+&copy; 2025 Descify powered by GetBestify. Alle rettigheder forbeholdes.

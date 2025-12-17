@@ -144,4 +144,4 @@
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Все права защищены.
+&copy; 2025 Descify powered by GetBestify. Все права защищены.

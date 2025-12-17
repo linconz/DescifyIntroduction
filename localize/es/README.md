@@ -144,4 +144,4 @@ El **historial** es donde revisa, refina y publica su contenido. Ofrece potentes
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Todos los derechos reservados.
+&copy; 2025 Descify powered by GetBestify. Todos los derechos reservados.

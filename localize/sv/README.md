@@ -144,4 +144,4 @@ Hantera enkelt din katalog och konfigurera genereringsinställningar i vyn **Pro
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Alla rättigheter förbehållna.
+&copy; 2025 Descify powered by GetBestify. Alla rättigheter förbehållna.

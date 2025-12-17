@@ -144,4 +144,4 @@
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Wszelkie prawa zastrzeżone.
+&copy; 2025 Descify powered by GetBestify. Wszelkie prawa zastrzeżone.

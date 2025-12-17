@@ -143,4 +143,4 @@ Der **Verlauf** ist der Ort, an dem Sie Ihre Inhalte überprüfen, verfeinern un
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Alle Rechte vorbehalten.
+&copy; 2025 Descify powered by GetBestify. Alle Rechte vorbehalten.

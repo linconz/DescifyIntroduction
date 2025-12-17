@@ -144,4 +144,4 @@
 
 ---
 
-&copy; 2025 Descify مدعوم من Getbestify. جميع الحقوق محفوظة.
+&copy; 2025 Descify مدعوم من GetBestify. جميع الحقوق محفوظة.

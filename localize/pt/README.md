@@ -144,4 +144,4 @@ O **histórico** é onde você revisa, refina e publica seu conteúdo. Oferece p
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Todos os direitos reservados.
+&copy; 2025 Descify powered by GetBestify. Todos os direitos reservados.

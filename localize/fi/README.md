@@ -144,4 +144,4 @@ Hallitse luetteloasi vaivattomasti ja määritä luomisasetukset **Tuotevalinta*
 
 ---
 
-&copy; 2025 Descify powered by Getbestify. Kaikki oikeudet pidätetään.
+&copy; 2025 Descify powered by GetBestify. Kaikki oikeudet pidätetään.
