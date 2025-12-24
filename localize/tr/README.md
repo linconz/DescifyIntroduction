@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Seri Numaraları ve Etiketler
 1. **Generated Words (Oluşturulan Kelimeler)**  
@@ -32,8 +35,11 @@
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Seri Numaraları ve Etiketler
 
@@ -50,7 +56,9 @@
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Seçim Modu)**  
@@ -61,6 +69,16 @@
    Farklı sayfalar arasında gezinmek için buraya tıklayın.
 7. **Initiate Generation (Oluşturmayı Başlat)**  
    Ürünleri, şablonları ve tercih edilen dili seçtikten sonra açıklama oluşturma sürecini başlatmak için buraya tıklayın.
+8. **Description Length (Açıklama Uzunluğu)**
+   
+   Descify, oluşturulan ürün açıklamalarının uzunluğunu özelleştirmenize olanak tanır ve aralarından seçim yapabileceğiniz üç farklı uzunluk seçeneği sunar.
+   
+   **Short (Kısa)** Yaklaşık 200 kelime
+   
+   **Medium (Orta)** Yaklaşık 400 kelime
+   
+   **Long (Uzun)** Yaklaşık 600 kelime
+
 
 ---
 
@@ -71,7 +89,9 @@
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Seri Numaraları ve Etiketler
 1. **Search Box (Arama Kutusu)**  
@@ -84,7 +104,9 @@
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Şablon Türüne Göre Filtrele)**  
    Kullanılan şablon kategorisine göre seçimi iyileştirin.
@@ -93,7 +115,9 @@
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Seçim Seçenekleri)**  
@@ -115,7 +139,9 @@
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Sayfa Boyutu Ayarı)**  
    Seçenekleri kullanarak sayfa başına öğe sayısını ayarlayın: 10, 25 veya 50.

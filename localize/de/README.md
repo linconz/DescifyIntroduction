@@ -9,8 +9,11 @@ Die **Startseite** dient als Kommandozentrale und bietet einen Echtzeit-Überbli
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Seriennummern und Beschriftungen
 1. **Generated Words (Generierte Wörter)**  
@@ -32,8 +35,11 @@ Verwalten Sie mühelos Ihren Katalog und konfigurieren Sie Generierungseinstellu
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Seriennummern und Beschriftungen
 
@@ -50,7 +56,9 @@ Verwalten Sie mühelos Ihren Katalog und konfigurieren Sie Generierungseinstellu
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Auswahlmodus)**  
@@ -61,6 +69,16 @@ Verwalten Sie mühelos Ihren Katalog und konfigurieren Sie Generierungseinstellu
    Klicken Sie hier, um zwischen verschiedenen Seiten zu navigieren.
 7. **Initiate Generation (Generierung starten)**  
    Nachdem Sie Produkte, Vorlagen und bevorzugte Sprache ausgewählt haben, klicken Sie hier, um den Beschreibungsgenerierungsprozess zu starten.
+8. **Description Length (Beschreibungslänge)**
+   
+   Descify ermöglicht es Ihnen, die Länge der generierten Produktbeschreibungen anzupassen, wobei drei verschiedene Längenoptionen zur Auswahl stehen.
+   
+   **Short (Kurz)** Ca. 200 Wörter
+   
+   **Medium (Mittel)** Ca. 400 Wörter
+   
+   **Long (Lang)** Ca. 600 Wörter
+
 
 ---
 
@@ -71,7 +89,9 @@ Der **Verlauf** ist der Ort, an dem Sie Ihre Inhalte überprüfen, verfeinern un
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Seriennummern und Beschriftungen
 1. **Search Box (Suchfeld)**  
@@ -84,7 +104,9 @@ Der **Verlauf** ist der Ort, an dem Sie Ihre Inhalte überprüfen, verfeinern un
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Nach Vorlagentyp filtern)**  
    Auswahl nach verwendeter Vorlagenkategorie verfeinern.
@@ -93,7 +115,9 @@ Der **Verlauf** ist der Ort, an dem Sie Ihre Inhalte überprüfen, verfeinern un
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Auswahloptionen)**  
@@ -115,7 +139,9 @@ Der **Verlauf** ist der Ort, an dem Sie Ihre Inhalte überprüfen, verfeinern un
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Seitengrößenanpassung)**  
    Passen Sie die Anzahl der Elemente pro Seite mit den Optionen an: 10, 25 oder 50.

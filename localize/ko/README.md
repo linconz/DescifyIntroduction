@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### 일련번호 및 레이블 설명
 1. **Generated Words (생성된 단어 수)**  
@@ -32,8 +35,11 @@
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### 일련번호 및 레이블 설명
 
@@ -50,7 +56,9 @@
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (선택 모드)**  
@@ -61,6 +69,16 @@
    여기를 클릭하여 다른 페이지 간을 이동합니다.
 7. **Initiate Generation (생성 시작)**  
    제품, 템플릿 및 선호 언어를 선택한 후 여기를 클릭하여 설명 생성 프로세스를 시작합니다.
+8. **Description Length (설명 길이)**
+   
+   Descify를 사용하면 생성된 제품 설명의 길이를 사용자 정의할 수 있으며, 선택할 수 있는 세 가지 길이 옵션을 제공합니다.
+   
+   **Short (짧음)** 약 200단어
+   
+   **Medium (중간)** 약 400단어
+   
+   **Long (김)** 약 600단어
+
 
 ---
 
@@ -71,7 +89,9 @@
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### 일련번호 및 레이블 설명
 1. **Search Box (검색창)**  
@@ -84,7 +104,9 @@
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (템플릿 유형별 필터)**  
    사용된 템플릿 카테고리에 따라 선택을 세분화합니다.
@@ -93,7 +115,9 @@
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (선택 옵션)**  
@@ -115,7 +139,9 @@
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (페이지 크기 조정)**  
    옵션을 사용하여 페이지당 항목 수를 조정: 10, 25 또는 50.

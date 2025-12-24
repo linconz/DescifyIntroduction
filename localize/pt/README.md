@@ -9,8 +9,11 @@ A **página inicial** serve como seu centro de comando, fornecendo uma visão ge
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Números de série e etiquetas
 1. **Generated Words (Palavras geradas)**  
@@ -32,8 +35,11 @@ Gerencie facilmente seu catálogo e configure as definições de geração na vi
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Números de série e etiquetas
 
@@ -50,7 +56,9 @@ Gerencie facilmente seu catálogo e configure as definições de geração na vi
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Modo de seleção)**  
@@ -61,6 +69,16 @@ Gerencie facilmente seu catálogo e configure as definições de geração na vi
    Clique aqui para navegar entre diferentes páginas.
 7. **Initiate Generation (Iniciar geração)**  
    Após selecionar produtos, modelos e idioma preferido, clique aqui para iniciar o processo de geração de descrição.
+8. **Description Length (Comprimento da Descrição)**
+   
+   Descify permite personalizar o comprimento das descrições de produtos geradas, oferecendo três opções de comprimento distintas para escolher.
+   
+   **Short (Curto)** Aprox. 200 palavras
+   
+   **Medium (Médio)** Aprox. 400 palavras
+   
+   **Long (Longo)** Aprox. 600 palavras
+
 
 ---
 
@@ -71,7 +89,9 @@ O **histórico** é onde você revisa, refina e publica seu conteúdo. Oferece p
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Números de série e etiquetas
 1. **Search Box (Caixa de pesquisa)**  
@@ -84,7 +104,9 @@ O **histórico** é onde você revisa, refina e publica seu conteúdo. Oferece p
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Filtrar por tipo de modelo)**  
    Refine a seleção de acordo com a categoria de modelo usada.
@@ -93,7 +115,9 @@ O **histórico** é onde você revisa, refina e publica seu conteúdo. Oferece p
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Opções de seleção)**  
@@ -116,7 +140,9 @@ O **histórico** é onde você revisa, refina e publica seu conteúdo. Oferece p
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Ajuste do tamanho da página)**  
    Ajuste o número de itens por página usando as opções: 10, 25 ou 50.

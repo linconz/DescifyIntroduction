@@ -5,11 +5,11 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6W3P2V9WKJ"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'G-6W3P2V9WKJ');
+        gtag('config', 'G-6W3P2V9WKJ');
     </script>
 
     <meta charset="UTF-8">
@@ -152,7 +152,8 @@
             max-width: 980px;
             margin: 0 auto;
             padding: 45px;
-            position: relative; /* 添加相对定位，使语言切换器相对于此容器定位 */
+            position: relative;
+            /* 添加相对定位，使语言切换器相对于此容器定位 */
         }
 
         .markdown-body img {
@@ -321,7 +322,8 @@
         /* Side navigation styles */
         .side-nav {
             position: fixed;
-            top: 100px; /* 与 article 的 padding-top 对齐 */
+            top: 100px;
+            /* 与 article 的 padding-top 对齐 */
             right: max(calc((100vw - 980px) / 2 - 180px), 20px);
             background: white;
             border: 1px solid #d0d7de;
@@ -344,7 +346,8 @@
         }
 
         .side-nav-item {
-            display: block;
+            display: flex;
+            align-items: center;
             padding: 8px 16px;
             color: #24292f;
             text-decoration: none;
@@ -400,138 +403,207 @@
                 <a href="/localize/ru/index.html" class="lang-option">Русский</a>
             </div>
         </div>
-<h1>Descify: KI-gestützter Shopify-Produktbeschreibungsgenerator</h1>
-<p><strong>Descify</strong> ist eine umfassende Shopify-Anwendung, die entwickelt wurde, um den Copywriting-Prozess für E-Commerce-Händler zu automatisieren und zu optimieren. Durch die Nutzung fortschrittlicher KI hilft Descify Shop-Inhabern, hochwertige, SEO-freundliche und konversionsorientierte Produktbeschreibungen in großen Mengen zu generieren und spart dabei Stunden manueller Arbeit.</p>
-<h2>🚀 Überblick über die Hauptfunktionen</h2>
-<h3 id="section-home">1. Startseite: Einblicke auf einen Blick</h3>
-<p>Die <strong>Startseite</strong> dient als Kommandozentrale und bietet einen Echtzeit-Überblick über Ihre Nutzung und Einsparungen.</p>
-<div align="center">
+        <h1>Descify: KI-gestützter Shopify-Produktbeschreibungsgenerator</h1>
+        <p><strong>Descify</strong> ist eine umfassende Shopify-Anwendung, die entwickelt wurde, um den
+            Copywriting-Prozess für E-Commerce-Händler zu automatisieren und zu optimieren. Durch die Nutzung
+            fortschrittlicher KI hilft Descify Shop-Inhabern, hochwertige, SEO-freundliche und konversionsorientierte
+            Produktbeschreibungen in großen Mengen zu generieren und spart dabei Stunden manueller Arbeit.</p>
+        <h2>🚀 Überblick über die Hauptfunktionen</h2>
+        <h3 id="section-home">1. Startseite: Einblicke auf einen Blick</h3>
+        <p>Die <strong>Startseite</strong> dient als Kommandozentrale und bietet einen Echtzeit-Überblick über Ihre
+            Nutzung und Einsparungen.</p>
+        <div align="center">
 
-<p><img src="/images/1.%20Home%20Page.png" alt="Home Page Dashboard"></p>
-</div>
+            <p><img src="/images/1.%20Home%20Page.png" alt="Home Page Dashboard"></p>
+        </div>
 
-<h4>Seriennummern und Beschriftungen</h4>
-<ol>
-<li><strong>Generated Words (Generierte Wörter)</strong><br>Gesamtzahl der von Descify generierten Wörter</li>
-<li><strong>Saved Your Time (Gesparte Zeit)</strong><br>Mit Descifys Unterstützung gesparte Zeit</li>
-<li><strong>Usable Credits (Nutzbare Credits)</strong><br>Verbleibende Anzahl verfügbarer Credits</li>
-<li><strong>Your Plan (Ihr Plan)</strong><br>Ihr aktueller Mitgliedschaftstyp</li>
-<li><strong>Recent History (Neueste Verlauf)</strong><br>Eine schnelle Ansicht Ihrer letzten 5 Generierungsaufgaben zur Verfolgung des unmittelbaren Fortschritts.
-Klicken Sie hier, um zum Generierungsverlauf zu navigieren</li>
-</ol>
-<h3 id="section-product">2. Produktauswahl</h3>
-<p>Verwalten Sie mühelos Ihren Katalog und konfigurieren Sie Generierungseinstellungen in der <strong>Produktauswahl</strong>-Ansicht.</p>
-<div align="center">
+        <h4>Seriennummern und Beschriftungen</h4>
+        <ol>
+            <li><strong>Generated Words (Generierte Wörter)</strong><br>Gesamtzahl der von Descify generierten Wörter
+            </li>
+            <li><strong>Saved Your Time (Gesparte Zeit)</strong><br>Mit Descifys Unterstützung gesparte Zeit</li>
+            <li><strong>Usable Credits (Nutzbare Credits)</strong><br>Verbleibende Anzahl verfügbarer Credits</li>
+            <li><strong>Your Plan (Ihr Plan)</strong><br>Ihr aktueller Mitgliedschaftstyp</li>
+            <li><strong>Recent History (Neueste Verlauf)</strong><br>Eine schnelle Ansicht Ihrer letzten 5
+                Generierungsaufgaben zur Verfolgung des unmittelbaren Fortschritts.
+                Klicken Sie hier, um zum Generierungsverlauf zu navigieren</li>
+        </ol>
+        <h3 id="section-product">2. Produktauswahl</h3>
+        <p>Verwalten Sie mühelos Ihren Katalog und konfigurieren Sie Generierungseinstellungen in der
+            <strong>Produktauswahl</strong>-Ansicht.
+        </p>
+        <div align="center">
 
-<p><img src="/images/2.%20Product%20List.png" alt="Product List Selection"></p>
-</div>
+            <p><img src="/images/2.%20Product%20List.png" alt="Product List Selection"></p>
+        </div>
 
-<h4>Seriennummern und Beschriftungen</h4>
-<ol>
-<li><strong>Search Box (Suchfeld)</strong><br>Finden Sie Produkte zur Beschreibungsoptimierung, indem Sie Produkt-Schlüsselwörter eingeben.</li>
-<li><strong>Click to Search (Zum Suchen klicken)</strong><br>Klicken Sie hier, um die Suche auszuführen.</li>
-<li><strong>Template Selection Preview (Vorschau der Vorlagenauswahl)</strong><br>Durchsuchen und Vorschau verfügbarer Beschreibungsvorlagen.<ul>
-<li><strong>9 einzigartige Vorlagen:</strong> Wählen Sie den perfekten Ton für Ihre Marke, wie <em>Professionell Autoritativ</em>, <em>Szenario-Geschichte</em>, <em>Merkmal Vorteil Nutzen</em> oder <em>Luxus Prestige</em>.</li>
-<li><strong>Mehrsprachige Unterstützung:</strong> Lokalisieren Sie Ihren Shop mit Unterstützung für 20 verschiedene Sprachen.</li>
-</ul>
-</li>
-</ol>
-<div align="center">
+        <h4>Seriennummern und Beschriftungen</h4>
+        <ol>
+            <li><strong>Search Box (Suchfeld)</strong><br>Finden Sie Produkte zur Beschreibungsoptimierung, indem Sie
+                Produkt-Schlüsselwörter eingeben.</li>
+            <li><strong>Click to Search (Zum Suchen klicken)</strong><br>Klicken Sie hier, um die Suche auszuführen.
+            </li>
+            <li><strong>Template Selection Preview (Vorschau der Vorlagenauswahl)</strong><br>Durchsuchen und Vorschau
+                verfügbarer Beschreibungsvorlagen.<ul>
+                    <li><strong>9 einzigartige Vorlagen:</strong> Wählen Sie den perfekten Ton für Ihre Marke, wie
+                        <em>Professionell Autoritativ</em>, <em>Szenario-Geschichte</em>, <em>Merkmal Vorteil
+                            Nutzen</em> oder <em>Luxus Prestige</em>.
+                    </li>
+                    <li><strong>Mehrsprachige Unterstützung:</strong> Lokalisieren Sie Ihren Shop mit Unterstützung für
+                        20 verschiedene Sprachen.</li>
+                </ul>
+            </li>
+        </ol>
+        <div align="center">
 
-<p><img src="/images/3.%20Product%20List-Templates.png" alt="Template Selection"></p>
-</div>
-
-
-<ol start="4">
-<li><strong>Selection Mode (Auswahlmodus)</strong><br>Wählen Sie zwischen Einzelauswahl oder Alle auswählen-Optionen.</li>
-<li><strong>Page Size Configuration (Seitengrößenkonfiguration)</strong><br>Unterstützt dynamisches Umschalten zwischen 10/25/50 Elementen pro Seite.</li>
-<li><strong>Page Navigation (Seitennavigation)</strong><br>Klicken Sie hier, um zwischen verschiedenen Seiten zu navigieren.</li>
-<li><strong>Initiate Generation (Generierung starten)</strong><br>Nachdem Sie Produkte, Vorlagen und bevorzugte Sprache ausgewählt haben, klicken Sie hier, um den Beschreibungsgenerierungsprozess zu starten.</li>
-</ol>
-<hr>
-<h3 id="section-history">3. Verlauf</h3>
-<p>Der <strong>Verlauf</strong> ist der Ort, an dem Sie Ihre Inhalte überprüfen, verfeinern und veröffentlichen. Er bietet leistungsstarke Filter- und Bearbeitungsfunktionen.</p>
-<div align="center">
-
-<p><img src="/images/4.%20History.png" alt="History Management"></p>
-</div>
-
-<h4>Seriennummern und Beschriftungen</h4>
-<ol>
-<li><p><strong>Search Box (Suchfeld)</strong><br>Nach Produktnamen-Schlüsselwörtern filtern.</p>
-</li>
-<li><p><strong>Filter by Generation Status (Nach Generierungsstatus filtern)</strong><br>Ergebnisse basierend auf der aktuellen Generierungsphase eingrenzen.</p>
-</li>
-</ol>
-<div align="center">
-
-<p><img src="/images/5.%20History%20by%20Status.png" alt="Filter by Generation Status"></p>
-</div>
-
-<ol start="3">
-<li><strong>Filter by Template Type (Nach Vorlagentyp filtern)</strong><br>Auswahl nach verwendeter Vorlagenkategorie verfeinern.</li>
-</ol>
-<div align="center">
-
-<p><img src="/images/6.%20History%20by%20Templates.png" alt="Filter by Template Type"></p>
-</div>
+            <p><img src="/images/3.%20Product%20List-Templates.png" alt="Template Selection"></p>
+        </div>
 
 
-<ol start="4">
-<li><p><strong>Selection Options (Auswahloptionen)</strong><br>Einzelauswahl oder Alle auswählen-Kontrollkästchen.</p>
-</li>
-<li><p><strong>Regenerate (Neu generieren)</strong><br>Wenn Sie mit dem ausgewählten Generierungsdatensatz nicht zufrieden sind, klicken Sie auf die Schaltfläche „Neu generieren&quot;, um schnell zur Produktauswahlseite zurückzukehren, wo Sie die Vorlage und Sprache erneut auswählen können, um die Produktbeschreibung neu zu generieren.</p>
-</li>
-<li><p><strong>Sync to Product (Mit Produkt synchronisieren)</strong><br>Synchronisieren Sie die generierte Beschreibung mit dem entsprechenden Produkt.</p>
-</li>
-<li><p><strong>Product Thumbnail and Name (Produkt-Miniaturansicht und Name)</strong><br>Zeigen Sie die Produkt-Miniaturansicht und den Namen an, die mit dem aktuellen Generierungsdatensatz verknüpft sind.</p>
-</li>
-<li><p><strong>Edit Mode (Bearbeitungsmodus)</strong><br>Klicken Sie hier, um in den Bearbeitungsmodus zu wechseln, wo Sie den generierten Inhalt mit dem von Descify bereitgestellten schlanken Lightweight-Editor überarbeiten und speichern können.</p>
-</li>
-</ol>
-<div align="center">
+        <ol start="4">
+            <li><strong>Selection Mode (Auswahlmodus)</strong><br>Wählen Sie zwischen Einzelauswahl oder Alle
+                auswählen-Optionen.</li>
+            <li><strong>Page Size Configuration (Seitengrößenkonfiguration)</strong><br>Unterstützt dynamisches
+                Umschalten zwischen 10/25/50 Elementen pro Seite.</li>
+            <li><strong>Page Navigation (Seitennavigation)</strong><br>Klicken Sie hier, um zwischen verschiedenen
+                Seiten zu navigieren.</li>
+            <li><strong>Initiate Generation (Generierung starten)</strong><br>Nachdem Sie Produkte, Vorlagen und
+                bevorzugte Sprache ausgewählt haben, klicken Sie hier, um den Beschreibungsgenerierungsprozess zu
+                starten.</li>
+            <li><strong>Description Length (Beschreibungslänge)</strong><br>Descify ermöglicht es Ihnen, die Länge der
+                generierten Produktbeschreibungen anzupassen, wobei drei verschiedene Längenoptionen zur Auswahl
+                stehen.<br />
+                <strong>Short (Kurz)</strong> Ca. 200 Wörter<br /><strong>Medium (Mittel)</strong> Ca. 400
+                Wörter<br /><strong>Long (Lang)</strong> Ca. 600 Wörter
+            </li>
+        </ol>
+        <hr>
+        <h3 id="section-history">3. Verlauf</h3>
+        <p>Der <strong>Verlauf</strong> ist der Ort, an dem Sie Ihre Inhalte überprüfen, verfeinern und veröffentlichen.
+            Er bietet leistungsstarke Filter- und Bearbeitungsfunktionen.</p>
+        <div align="center">
 
-<p><img src="/images/7.%20History%20by%20Editor.png" alt="Edit Mode"></p>
-</div>
+            <p><img src="/images/4.%20History.png" alt="History Management"></p>
+        </div>
 
-<ol start="9">
-<li><p><strong>Page Size Adjustment (Seitengrößenanpassung)</strong><br>Passen Sie die Anzahl der Elemente pro Seite mit den Optionen an: 10, 25 oder 50.</p>
-</li>
-<li><p><strong>Product Name (Produktname)</strong><br>Der Name Ihres Produkts.</p>
-</li>
-<li><p><strong>Generation Language (Generierungssprache)</strong><br>Die für diesen Generierungszyklus ausgewählte Sprache.</p>
-</li>
-<li><p><strong>Generation Status (Generierungsstatus)</strong><br>Die folgenden Status zeigen die aktuelle Phase des Generierungsprozesses an:</p>
-<ul>
-<li><strong>Pending (Ausstehend)</strong>: Warten auf Verarbeitung.</li>
-<li><strong>In Processing (In Bearbeitung)</strong>: Generierung läuft.</li>
-<li><strong>Waiting for Apply (Warten auf Anwendung)</strong>: Generierung abgeschlossen, wartet auf Ihre Synchronisierung mit dem Produkt.</li>
-<li><strong>Applied (Angewendet)</strong>: Erfolgreich mit dem Produkt synchronisiert.</li>
-<li><strong>Failed (Fehlgeschlagen)</strong>: Ein Fehler ist aufgetreten und die Generierung war nicht erfolgreich.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>💡 Wie es Händlern hilft</h2>
-<ul>
-<li><strong>Zeit sparen:</strong> Automatisieren Sie die sich wiederholende Aufgabe, Beschreibungen für Hunderte von SKUs zu schreiben.</li>
-<li><strong>SEO steigern:</strong> Erstellen Sie einzigartige, keyword-reiche Inhalte, die Produkten helfen, besser zu ranken.</li>
-<li><strong>Global werden:</strong> Übersetzen und lokalisieren Sie Produktinhalte sofort für internationale Märkte.</li>
-</ul>
-<hr>
+        <h4>Seriennummern und Beschriftungen</h4>
+        <ol>
+            <li>
+                <p><strong>Search Box (Suchfeld)</strong><br>Nach Produktnamen-Schlüsselwörtern filtern.</p>
+            </li>
+            <li>
+                <p><strong>Filter by Generation Status (Nach Generierungsstatus filtern)</strong><br>Ergebnisse
+                    basierend auf der aktuellen Generierungsphase eingrenzen.</p>
+            </li>
+        </ol>
+        <div align="center">
 
-<p id="contact">Kontaktieren Sie uns: contact@getbestify.com</p>
-<p>&copy; 2025 Descify powered by GetBestify. Alle Rechte vorbehalten.</p>
+            <p><img src="/images/5.%20History%20by%20Status.png" alt="Filter by Generation Status"></p>
+        </div>
+
+        <ol start="3">
+            <li><strong>Filter by Template Type (Nach Vorlagentyp filtern)</strong><br>Auswahl nach verwendeter
+                Vorlagenkategorie verfeinern.</li>
+        </ol>
+        <div align="center">
+
+            <p><img src="/images/6.%20History%20by%20Templates.png" alt="Filter by Template Type"></p>
+        </div>
+
+
+        <ol start="4">
+            <li>
+                <p><strong>Selection Options (Auswahloptionen)</strong><br>Einzelauswahl oder Alle
+                    auswählen-Kontrollkästchen.</p>
+            </li>
+            <li>
+                <p><strong>Regenerate (Neu generieren)</strong><br>Wenn Sie mit dem ausgewählten Generierungsdatensatz
+                    nicht zufrieden sind, klicken Sie auf die Schaltfläche „Neu generieren&quot;, um schnell zur
+                    Produktauswahlseite zurückzukehren, wo Sie die Vorlage und Sprache erneut auswählen können, um die
+                    Produktbeschreibung neu zu generieren.</p>
+            </li>
+            <li>
+                <p><strong>Sync to Product (Mit Produkt synchronisieren)</strong><br>Synchronisieren Sie die generierte
+                    Beschreibung mit dem entsprechenden Produkt.</p>
+            </li>
+            <li>
+                <p><strong>Product Thumbnail and Name (Produkt-Miniaturansicht und Name)</strong><br>Zeigen Sie die
+                    Produkt-Miniaturansicht und den Namen an, die mit dem aktuellen Generierungsdatensatz verknüpft
+                    sind.</p>
+            </li>
+            <li>
+                <p><strong>Edit Mode (Bearbeitungsmodus)</strong><br>Klicken Sie hier, um in den Bearbeitungsmodus zu
+                    wechseln, wo Sie den generierten Inhalt mit dem von Descify bereitgestellten schlanken
+                    Lightweight-Editor überarbeiten und speichern können.</p>
+            </li>
+        </ol>
+        <div align="center">
+
+            <p><img src="/images/7.%20History%20by%20Editor.png" alt="Edit Mode"></p>
+        </div>
+
+        <ol start="9">
+            <li>
+                <p><strong>Page Size Adjustment (Seitengrößenanpassung)</strong><br>Passen Sie die Anzahl der Elemente
+                    pro Seite mit den Optionen an: 10, 25 oder 50.</p>
+            </li>
+            <li>
+                <p><strong>Product Name (Produktname)</strong><br>Der Name Ihres Produkts.</p>
+            </li>
+            <li>
+                <p><strong>Generation Language (Generierungssprache)</strong><br>Die für diesen Generierungszyklus
+                    ausgewählte Sprache.</p>
+            </li>
+            <li>
+                <p><strong>Generation Status (Generierungsstatus)</strong><br>Die folgenden Status zeigen die aktuelle
+                    Phase des Generierungsprozesses an:</p>
+                <ul>
+                    <li><strong>Pending (Ausstehend)</strong>: Warten auf Verarbeitung.</li>
+                    <li><strong>In Processing (In Bearbeitung)</strong>: Generierung läuft.</li>
+                    <li><strong>Waiting for Apply (Warten auf Anwendung)</strong>: Generierung abgeschlossen, wartet auf
+                        Ihre Synchronisierung mit dem Produkt.</li>
+                    <li><strong>Applied (Angewendet)</strong>: Erfolgreich mit dem Produkt synchronisiert.</li>
+                    <li><strong>Failed (Fehlgeschlagen)</strong>: Ein Fehler ist aufgetreten und die Generierung war
+                        nicht erfolgreich.</li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+        <h2>💡 Wie es Händlern hilft</h2>
+        <ul>
+            <li><strong>Zeit sparen:</strong> Automatisieren Sie die sich wiederholende Aufgabe, Beschreibungen für
+                Hunderte von SKUs zu schreiben.</li>
+            <li><strong>SEO steigern:</strong> Erstellen Sie einzigartige, keyword-reiche Inhalte, die Produkten helfen,
+                besser zu ranken.</li>
+            <li><strong>Global werden:</strong> Übersetzen und lokalisieren Sie Produktinhalte sofort für internationale
+                Märkte.</li>
+        </ul>
+        <hr>
+
+        <p id="contact">Kontaktieren Sie uns: contact@getbestify.com</p>
+        <p>&copy; 2025 Descify powered by GetBestify. Alle Rechte vorbehalten.</p>
 
     </article>
 
     <!-- Side navigation -->
     <nav class="side-nav" id="sideNav">
         <div class="side-nav-title">Navigation</div>
-        <a href="#section-home" class="side-nav-item" data-section="section-home">Startseite</a>
-        <a href="#section-product" class="side-nav-item" data-section="section-product">Produktauswahl</a>
-        <a href="#section-history" class="side-nav-item" data-section="section-history">Verlauf</a>
-        <a href="#contact" class="side-nav-item" data-section="contact">Kontaktieren Sie uns</a>
+        <a href="#section-home" class="side-nav-item" data-section="section-home"><img src="/images/home-fill.svg"
+                alt="Home" style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Startseite</a>
+        <a href="#section-product" class="side-nav-item" data-section="section-product"><img
+                src="/images/shopping-fill.svg" alt="Product Selection"
+                style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Produktauswahl</a>
+        <a href="#section-history" class="side-nav-item" data-section="section-history"><img
+                src="/images/app%20store-fill.svg" alt="History"
+                style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Verlauf</a>
+        <a href="#contact" class="side-nav-item" data-section="contact"><img src="/images/mail-fill.svg" alt="History"
+                style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Kontaktieren Sie uns</a>
+        <div class="side-nav-title" style="margin-top: 20px;">SHARE</div>
+        <a href="#" class="side-nav-item" onclick="shareToTwitter(event)"><img src="/images/twitter-square-fill.svg"
+                alt="Twitter" style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Twitter</a>
+        <a href="#" class="side-nav-item" onclick="shareToFacebook(event)"><img src="/images/facebook-fill.svg"
+                alt="Facebook"
+                style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Facebook</a>
     </nav>
 
     <!-- Back to top button -->
@@ -540,18 +612,18 @@ Klicken Sie hier, um zum Generierungsverlauf zu navigieren</li>
     <script>
         // Back to top functionality
         const backToTopButton = document.getElementById('backToTop');
-        
+
         // Show/hide button based on scroll position
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             if (window.pageYOffset > 300) {
                 backToTopButton.classList.add('show');
             } else {
                 backToTopButton.classList.remove('show');
             }
         });
-        
+
         // Smooth scroll to top when clicked
-        backToTopButton.addEventListener('click', function() {
+        backToTopButton.addEventListener('click', function () {
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
@@ -561,24 +633,24 @@ Klicken Sie hier, um zum Generierungsverlauf zu navigieren</li>
         // Side navigation scroll highlight
         const navItems = document.querySelectorAll('.side-nav-item');
         const sections = ['section-home', 'section-product', 'section-history', 'contact'];
-        
+
         function updateActiveNav() {
             let currentSection = '';
             const scrollPosition = window.pageYOffset + 100;
-            
+
             // Find current section
             sections.forEach(sectionId => {
                 const section = document.getElementById(sectionId);
                 if (section) {
                     const sectionTop = section.offsetTop;
                     const sectionHeight = section.offsetHeight;
-                    
+
                     if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
                         currentSection = sectionId;
                     }
                 }
             });
-            
+
             // Update active state
             navItems.forEach(item => {
                 item.classList.remove('active');
@@ -587,16 +659,16 @@ Klicken Sie hier, um zum Generierungsverlauf zu navigieren</li>
                 }
             });
         }
-        
+
         // Update on scroll
         window.addEventListener('scroll', updateActiveNav);
-        
+
         // Update on load
         updateActiveNav();
-        
+
         // Smooth scroll for nav links
         navItems.forEach(item => {
-            item.addEventListener('click', function(e) {
+            item.addEventListener('click', function (e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href').substring(1);
                 const targetSection = document.getElementById(targetId);
@@ -608,6 +680,20 @@ Klicken Sie hier, um zum Generierungsverlauf zu navigieren</li>
                 }
             });
         });
+        function shareToTwitter(e) {
+            e.preventDefault();
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent(document.title);
+            const desc = encodeURIComponent(document.querySelector('meta[name="description"]')?.content || '');
+            const text = `${title} - ${desc}`;
+            window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank');
+        }
+
+        function shareToFacebook(e) {
+            e.preventDefault();
+            const url = encodeURIComponent(window.location.href);
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+        }
     </script>
 </body>
 

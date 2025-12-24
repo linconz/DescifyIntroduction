@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### 序号与标签说明
 1. **Generated Words (生成的字数)**  
@@ -32,8 +35,11 @@
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### 序号与标签说明
 
@@ -50,7 +56,9 @@
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (选择模式)**  
@@ -61,6 +69,16 @@
    点击此处在不同页面之间导航。
 7. **Initiate Generation (开始生成)**  
    选择产品、模板和首选语言后，点击此处开始产品描述生成流程。
+8. **Description Length (描述长度)**
+   
+   Descify 允许您自定义生成产品描述的长度，提供三种不同的长度选项供您选择。
+   
+   **Short (短)** 约 200 字
+   
+   **Medium (中)** 约 400 字
+   
+   **Long (长)** 约 600 字
+
 
 ---
 
@@ -71,7 +89,9 @@
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### 序号与标签说明
 1. **Search Box (搜索框)**  
@@ -84,7 +104,9 @@
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (按模板类型筛选)**  
    根据使用的模板类别筛选。
@@ -93,7 +115,9 @@
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (选择选项)**  
@@ -115,7 +139,9 @@
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (每页显示调整)**  
    使用选项调整每页显示的项目数量：10、25 或 50。

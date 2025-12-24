@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### หมายเลขซีเรียลและป้ายกำกับ
 1. **Generated Words (คำที่สร้างขึ้น)**  
@@ -32,8 +35,11 @@
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### หมายเลขซีเรียลและป้ายกำกับ
 
@@ -50,7 +56,9 @@
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (โหมดการเลือก)**  
@@ -61,6 +69,16 @@
    คลิกที่นี่เพื่อนำทางระหว่างหน้าต่างๆ
 7. **Initiate Generation (เริ่มการสร้าง)**  
    หลังจากเลือกผลิตภัณฑ์ เทมเพลต และภาษาที่ต้องการแล้ว คลิกที่นี่เพื่อเริ่มกระบวนการสร้างคำอธิบาย
+8. **Description Length (ความยาวคำอธิบาย)**
+   
+   Descify ช่วยให้คุณสามารถกำหนดความยาวของคำอธิบายสินค้าที่สร้างขึ้นได้ โดยมีตัวเลือกความยาวให้เลือก 3 แบบ
+   
+   **Short (สั้น)** ประมาณ 200 คำ
+   
+   **Medium (กลาง)** ประมาณ 400 คำ
+   
+   **Long (ยาว)** ประมาณ 600 คำ
+
 
 ---
 
@@ -71,7 +89,9 @@
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### หมายเลขซีเรียลและป้ายกำกับ
 1. **Search Box (กล่องค้นหา)**  
@@ -84,7 +104,9 @@
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (กรองตามประเภทเทมเพลต)**  
    ปรับแต่งการเลือกตามหมวดหมู่เทมเพลตที่ใช้
@@ -93,7 +115,9 @@
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (ตัวเลือกการเลือก)**  
@@ -116,7 +140,9 @@
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (การปรับขนาดหน้า)**  
    ปรับจำนวนรายการต่อหน้าโดยใช้ตัวเลือก: 10, 25 หรือ 50

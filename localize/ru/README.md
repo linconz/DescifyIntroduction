@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Серийные номера и метки
 1. **Generated Words (Сгенерированные слова)**  
@@ -32,8 +35,11 @@
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Серийные номера и метки
 
@@ -50,7 +56,9 @@
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Режим выбора)**  
@@ -61,6 +69,16 @@
    Нажмите здесь, чтобы перемещаться между различными страницами.
 7. **Initiate Generation (Начать генерацию)**  
    После выбора продуктов, шаблонов и предпочтительного языка нажмите здесь, чтобы начать процесс генерации описания.
+8. **Description Length (Длина описания)**
+   
+   Descify позволяет настраивать длину генерируемых описаний продуктов, предлагая три различных варианта длины на выбор.
+   
+   **Short (Короткое)** Ок. 200 слов
+   
+   **Medium (Среднее)** Ок. 400 слов
+   
+   **Long (Длинное)** Ок. 600 слов
+
 
 ---
 
@@ -71,7 +89,9 @@
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Серийные номера и метки
 1. **Search Box (Поле поиска)**  
@@ -84,7 +104,9 @@
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Фильтр по типу шаблона)**  
    Уточните выбор в соответствии с используемой категорией шаблона.
@@ -93,7 +115,9 @@
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Параметры выбора)**  
@@ -116,7 +140,9 @@
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Настройка размера страницы)**  
    Настройте количество элементов на странице, используя параметры: 10, 25 или 50.

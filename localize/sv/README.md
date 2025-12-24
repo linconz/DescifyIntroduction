@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Serienummer och etiketter
 1. **Generated Words (Genererade ord)**  
@@ -32,8 +35,11 @@ Hantera enkelt din katalog och konfigurera genereringsinställningar i vyn **Pro
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Serienummer och etiketter
 
@@ -50,7 +56,9 @@ Hantera enkelt din katalog och konfigurera genereringsinställningar i vyn **Pro
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Valläge)**  
@@ -61,6 +69,16 @@ Hantera enkelt din katalog och konfigurera genereringsinställningar i vyn **Pro
    Klicka här för att navigera mellan olika sidor.
 7. **Initiate Generation (Initiera generering)**  
    Efter att ha valt produkter, mallar och föredraget språk, klicka här för att starta beskrivningsgenereringsprocessen.
+8. **Description Length (Beskrivningslängd)**
+   
+   Descify låter dig anpassa längden på genererade produktbeskrivningar och erbjuder tre olika längdalternativ att välja mellan.
+   
+   **Short (Kort)** Ca 200 ord
+   
+   **Medium (Medel)** Ca 400 ord
+   
+   **Long (Lång)** Ca 600 ord
+
 
 ---
 
@@ -71,7 +89,9 @@ Hantera enkelt din katalog och konfigurera genereringsinställningar i vyn **Pro
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Serienummer och etiketter
 1. **Search Box (Sökruta)**  
@@ -84,7 +104,9 @@ Hantera enkelt din katalog och konfigurera genereringsinställningar i vyn **Pro
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Filtrera efter malltyp)**  
    Förfina urvalet enligt den använda mallkategorin.
@@ -93,7 +115,9 @@ Hantera enkelt din katalog och konfigurera genereringsinställningar i vyn **Pro
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Valalternativ)**  
@@ -116,7 +140,9 @@ Hantera enkelt din katalog och konfigurera genereringsinställningar i vyn **Pro
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Sidstorlek justering)**  
    Justera antalet objekt per sida med alternativen: 10, 25 eller 50.

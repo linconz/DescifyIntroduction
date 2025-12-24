@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### الأرقام التسلسلية والتسميات
 1. **Generated Words (الكلمات المُنشأة)**  
@@ -32,8 +35,11 @@
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### الأرقام التسلسلية والتسميات
 
@@ -50,7 +56,9 @@
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (وضع الاختيار)**  
@@ -61,6 +69,16 @@
    انقر هنا للتنقل بين الصفحات المختلفة.
 7. **Initiate Generation (بدء الإنشاء)**  
    بعد تحديد المنتجات والقوالب واللغة المفضلة، انقر هنا لبدء عملية إنشاء الوصف.
+8. **Description Length (طول الوصف)**
+   
+   يسمح لك Descify بتخصيص طول أوصاف المنتج التي تم إنشاؤها، حيث يوفر ثلاثة خيارات مختلفة للطول للاختيار من بينها.
+   
+   **Short (قصير)** تقريبا. 200 كلمة
+   
+   **Medium (متوسط)** تقريبا. 400 كلمة
+   
+   **Long (طويل)** تقريبا 600 كلمة
+
 
 ---
 
@@ -71,7 +89,9 @@
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### الأرقام التسلسلية والتسميات
 1. **Search Box (مربع البحث)**  
@@ -84,7 +104,9 @@
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (تصفية حسب نوع القالب)**  
    حسّن الاختيار وفقًا لفئة القالب المستخدمة.
@@ -93,7 +115,9 @@
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (خيارات الاختيار)**  
@@ -116,7 +140,9 @@
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (ضبط حجم الصفحة)**  
    اضبط عدد العناصر لكل صفحة باستخدام الخيارات: 10 أو 25 أو 50.

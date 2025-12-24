@@ -9,8 +9,11 @@ La **pagina iniziale** funge da centro di comando, fornendo una panoramica in te
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Numeri di serie ed etichette
 1. **Generated Words (Parole generate)**  
@@ -32,8 +35,11 @@ Gestisci facilmente il tuo catalogo e configura le impostazioni di generazione n
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Numeri di serie ed etichette
 
@@ -50,7 +56,9 @@ Gestisci facilmente il tuo catalogo e configura le impostazioni di generazione n
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Modalità di selezione)**  
@@ -61,6 +69,16 @@ Gestisci facilmente il tuo catalogo e configura le impostazioni di generazione n
    Fai clic qui per navigare tra diverse pagine.
 7. **Initiate Generation (Avvia generazione)**  
    Dopo aver selezionato prodotti, modelli e lingua preferita, fai clic qui per avviare il processo di generazione della descrizione.
+8. **Description Length (Lunghezza descrizione)**
+   
+   Descify ti consente di personalizzare la lunghezza delle descrizioni dei prodotti generate, offrendo tre distinte opzioni di lunghezza tra cui scegliere.
+   
+   **Short (Breve)** Circa 200 parole
+   
+   **Medium (Medio)** Circa 400 parole
+   
+   **Long (Lungo)** Circa 600 parole
+
 
 ---
 
@@ -71,7 +89,9 @@ La **cronologia** è dove rivedi, perfeziona e pubblichi i tuoi contenuti. Offre
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Numeri di serie ed etichette
 1. **Search Box (Casella di ricerca)**  
@@ -84,7 +104,9 @@ La **cronologia** è dove rivedi, perfeziona e pubblichi i tuoi contenuti. Offre
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Filtra per tipo di modello)**  
    Affina la selezione in base alla categoria di modello utilizzata.
@@ -93,7 +115,9 @@ La **cronologia** è dove rivedi, perfeziona e pubblichi i tuoi contenuti. Offre
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Opzioni di selezione)**  
@@ -116,7 +140,9 @@ La **cronologia** è dove rivedi, perfeziona e pubblichi i tuoi contenuti. Offre
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Regolazione dimensione pagina)**  
    Regola il numero di elementi per pagina utilizzando le opzioni: 10, 25 o 50.

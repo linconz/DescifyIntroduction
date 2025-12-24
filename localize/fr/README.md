@@ -9,8 +9,11 @@ La **page d'accueil** sert de centre de commande, fournissant un aperçu en temp
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Numéros de série et étiquettes
 1. **Generated Words (Mots générés)**  
@@ -32,8 +35,11 @@ Gérez facilement votre catalogue et configurez les paramètres de génération 
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Numéros de série et étiquettes
 
@@ -50,7 +56,9 @@ Gérez facilement votre catalogue et configurez les paramètres de génération 
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Mode de sélection)**  
@@ -61,6 +69,16 @@ Gérez facilement votre catalogue et configurez les paramètres de génération 
    Cliquez ici pour naviguer entre différentes pages.
 7. **Initiate Generation (Lancer la génération)**  
    Après avoir sélectionné les produits, les modèles et la langue préférée, cliquez ici pour démarrer le processus de génération de description.
+8. **Description Length (Longueur de la description)**
+   
+   Descify vous permet de personnaliser la longueur des descriptions de produits générées, offrant trois options de longueur distinctes parmi lesquelles choisir.
+   
+   **Short (Court)** Env. 200 mots
+   
+   **Medium (Moyen)** Env. 400 mots
+   
+   **Long (Long)** Env. 600 mots
+
 
 ---
 
@@ -71,7 +89,9 @@ L'**historique** est l'endroit où vous examinez, affinez et publiez votre conte
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Numéros de série et étiquettes
 1. **Search Box (Zone de recherche)**  
@@ -84,7 +104,9 @@ L'**historique** est l'endroit où vous examinez, affinez et publiez votre conte
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Filtrer par type de modèle)**  
    Affinez la sélection en fonction de la catégorie de modèle utilisée.
@@ -93,7 +115,9 @@ L'**historique** est l'endroit où vous examinez, affinez et publiez votre conte
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Options de sélection)**  
@@ -116,7 +140,9 @@ L'**historique** est l'endroit où vous examinez, affinez et publiez votre conte
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Ajustement de la taille de page)**  
    Ajustez le nombre d'éléments par page en utilisant les options : 10, 25 ou 50.

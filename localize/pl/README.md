@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Numery seryjne i etykiety
 1. **Generated Words (Wygenerowane słowa)**  
@@ -32,8 +35,11 @@
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Numery seryjne i etykiety
 
@@ -50,7 +56,9 @@
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Tryb wyboru)**  
@@ -61,6 +69,16 @@
    Kliknij tutaj, aby nawigować między różnymi stronami.
 7. **Initiate Generation (Rozpocznij generowanie)**  
    Po wybraniu produktów, szablonów i preferowanego języka kliknij tutaj, aby rozpocząć proces generowania opisu.
+8. **Description Length (Długość opisu)**
+   
+   Descify pozwala dostosować długość generowanych opisów produktów, oferując trzy różne opcje długości do wyboru.
+   
+   **Short (Krótki)** Ok. 200 słów
+   
+   **Medium (Średni)** Ok. 400 słów
+   
+   **Long (Długi)** Ok. 600 słów
+
 
 ---
 
@@ -71,7 +89,9 @@
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Numery seryjne i etykiety
 1. **Search Box (Pole wyszukiwania)**  
@@ -84,7 +104,9 @@
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Filtruj według typu szablonu)**  
    Udoskonal wybór zgodnie z używaną kategorią szablonu.
@@ -93,7 +115,9 @@
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Opcje wyboru)**  
@@ -116,7 +140,9 @@
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Dostosowanie rozmiaru strony)**  
    Dostosuj liczbę elementów na stronę, używając opcji: 10, 25 lub 50.

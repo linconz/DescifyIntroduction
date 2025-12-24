@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### 番号とラベルの説明
 1. **Generated Words（生成された単語数）**  
@@ -32,8 +35,11 @@
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### 番号とラベルの説明
 
@@ -50,7 +56,9 @@
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode（選択モード）**  
@@ -61,6 +69,16 @@
    ここをクリックして異なるページ間を移動します。
 7. **Initiate Generation（生成を開始）**  
    商品、テンプレート、希望言語を選択した後、ここをクリックして説明生成プロセスを開始します。
+8. **Description Length (説明の長さ)**
+   
+   Descifyでは、生成される商品説明の長さをカスタマイズでき、3つの異なる長さオプションから選択できます。
+   
+   **Short (短い)** 約200語
+   
+   **Medium (普通)** 約400語
+   
+   **Long (長い)** 約600語
+
 
 ---
 
@@ -71,7 +89,9 @@
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### 番号とラベルの説明
 1. **Search Box（検索ボックス）**  
@@ -84,7 +104,9 @@
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type（テンプレートタイプでフィルタ）**  
    使用されたテンプレートカテゴリに応じて選択を絞り込みます。
@@ -93,7 +115,9 @@
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options（選択オプション）**  
@@ -115,7 +139,9 @@
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment（ページサイズ調整）**  
    オプションを使用して1ページあたりのアイテム数を調整：10、25、または50。

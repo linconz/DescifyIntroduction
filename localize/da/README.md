@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Serienumre og etiketter
 1. **Generated Words (Genererede ord)**  
@@ -32,8 +35,11 @@ Administrer nemt dit katalog og konfigurer genereringsindstillinger i **Produktv
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Serienumre og etiketter
 
@@ -50,7 +56,9 @@ Administrer nemt dit katalog og konfigurer genereringsindstillinger i **Produktv
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Valgmodus)**  
@@ -61,6 +69,16 @@ Administrer nemt dit katalog og konfigurer genereringsindstillinger i **Produktv
    Klik her for at navigere mellem forskellige sider.
 7. **Initiate Generation (Start generering)**  
    Efter at have valgt produkter, skabeloner og foretrukket sprog, klik her for at starte beskrivelsesgenereringsprocessen.
+8. **Description Length (Beskrivelseslængde)**
+   
+   Descify giver dig mulighed for at tilpasse længden af genererede produktbeskrivelser med tre forskellige længdeindstillinger at vælge imellem.
+   
+   **Short (Kort)** Ca. 200 ord
+   
+   **Medium (Mellem)** Ca. 400 ord
+   
+   **Long (Lang)** Ca. 600 ord
+
 
 ---
 
@@ -71,7 +89,9 @@ Administrer nemt dit katalog og konfigurer genereringsindstillinger i **Produktv
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Serienumre og etiketter
 1. **Search Box (Søgefelt)**  
@@ -84,7 +104,9 @@ Administrer nemt dit katalog og konfigurer genereringsindstillinger i **Produktv
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Filtrer efter skabelontype)**  
    Forfin udvælgelse i henhold til den anvendte skabelonkategori.
@@ -93,7 +115,9 @@ Administrer nemt dit katalog og konfigurer genereringsindstillinger i **Produktv
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Valgmuligheder)**  
@@ -116,7 +140,9 @@ Administrer nemt dit katalog og konfigurer genereringsindstillinger i **Produktv
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Sidestørrelse justering)**  
    Juster antallet af elementer pr. side ved hjælp af mulighederne: 10, 25 eller 50.

@@ -9,8 +9,11 @@ La **página de inicio** sirve como su centro de comando, proporcionando una vis
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Números de serie y etiquetas
 1. **Generated Words (Palabras generadas)**  
@@ -32,8 +35,11 @@ Administre fácilmente su catálogo y configure los ajustes de generación en la
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Números de serie y etiquetas
 
@@ -50,7 +56,9 @@ Administre fácilmente su catálogo y configure los ajustes de generación en la
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Modo de selección)**  
@@ -61,6 +69,16 @@ Administre fácilmente su catálogo y configure los ajustes de generación en la
    Haga clic aquí para navegar entre diferentes páginas.
 7. **Initiate Generation (Iniciar generación)**  
    Después de seleccionar productos, plantillas e idioma preferido, haga clic aquí para iniciar el proceso de generación de descripción.
+8. **Description Length (Longitud de la descripción)**
+   
+   Descify le permite personalizar la longitud de las descripciones de productos generadas, ofreciendo tres opciones de longitud distintas para elegir.
+   
+   **Short (Corta)** Aprox. 200 palabras
+   
+   **Medium (Media)** Aprox. 400 palabras
+   
+   **Long (Larga)** Aprox. 600 palabras
+
 
 ---
 
@@ -71,7 +89,9 @@ El **historial** es donde revisa, refina y publica su contenido. Ofrece potentes
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Números de serie y etiquetas
 1. **Search Box (Cuadro de búsqueda)**  
@@ -84,7 +104,9 @@ El **historial** es donde revisa, refina y publica su contenido. Ofrece potentes
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Filtrar por tipo de plantilla)**  
    Refine la selección según la categoría de plantilla utilizada.
@@ -93,7 +115,9 @@ El **historial** es donde revisa, refina y publica su contenido. Ofrece potentes
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Opciones de selección)**  
@@ -116,7 +140,9 @@ El **historial** es donde revisa, refina y publica su contenido. Ofrece potentes
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Ajuste del tamaño de página)**  
    Ajuste el número de elementos por página usando las opciones: 10, 25 o 50.

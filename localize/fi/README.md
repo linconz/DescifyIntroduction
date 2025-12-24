@@ -9,8 +9,11 @@
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Sarjanumerot ja tunnisteet
 1. **Generated Words (Luodut sanat)**  
@@ -32,8 +35,11 @@ Hallitse luetteloasi vaivattomasti ja määritä luomisasetukset **Tuotevalinta*
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Sarjanumerot ja tunnisteet
 
@@ -50,7 +56,9 @@ Hallitse luetteloasi vaivattomasti ja määritä luomisasetukset **Tuotevalinta*
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Valintamodus)**  
@@ -61,6 +69,16 @@ Hallitse luetteloasi vaivattomasti ja määritä luomisasetukset **Tuotevalinta*
    Napsauta tästä siirtyäksesi eri sivujen välillä.
 7. **Initiate Generation (Aloita luominen)**  
    Kun olet valinnut tuotteet, mallit ja ensisijaisen kielen, napsauta tästä aloittaaksesi kuvauksen luomisprosessin.
+8. **Description Length (Kuvauksen pituus)**
+   
+   Descify antaa sinun mukauttaa luotujen tuotekuvausten pituutta tarjoten kolme erillistä pituusvaihtoehtoa valittavaksi.
+   
+   **Short (Lyhyt)** Noin 200 sanaa
+   
+   **Medium (Keskitaso)** Noin 400 sanaa
+   
+   **Long (Pitkä)** Noin 600 sanaa
+
 
 ---
 
@@ -71,7 +89,9 @@ Hallitse luetteloasi vaivattomasti ja määritä luomisasetukset **Tuotevalinta*
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Sarjanumerot ja tunnisteet
 1. **Search Box (Hakukenttä)**  
@@ -84,7 +104,9 @@ Hallitse luetteloasi vaivattomasti ja määritä luomisasetukset **Tuotevalinta*
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Suodata mallityypin mukaan)**  
    Tarkenna valintaa käytetyn mallilajin mukaan.
@@ -93,7 +115,9 @@ Hallitse luetteloasi vaivattomasti ja määritä luomisasetukset **Tuotevalinta*
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Valintavaihtoehdot)**  
@@ -116,7 +140,9 @@ Hallitse luetteloasi vaivattomasti ja määritä luomisasetukset **Tuotevalinta*
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Sivukoon säätö)**  
    Säädä kohteiden määrää sivua kohti käyttämällä vaihtoehtoja: 10, 25 tai 50.

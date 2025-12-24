@@ -344,7 +344,8 @@
         }
 
         .side-nav-item {
-            display: block;
+            display: flex;
+            align-items: center;
             padding: 8px 16px;
             color: #24292f;
             text-decoration: none;
@@ -461,6 +462,11 @@
             <li><strong>Page Navigation</strong><br>Click here to navigate between different pages. </li>
             <li><strong>Initiate Generation</strong><br>After selecting products, templates, and preferred language,
                 click here to start the description generation process.</li>
+            <li><strong>Description Length</strong><br>Descify allows you to customize the length of generated product
+                descriptions, offering three distinct length options to choose from.<br />
+                <strong>Short</strong> Approx. 200 words<br /><strong>Medium</strong> Approx. 400
+                words<br /><strong>Long</strong> Approx. 600 words
+            </li>
         </ol>
         <hr>
         <h3 id="section-history">3. History</h3>
@@ -566,10 +572,22 @@
     <!-- Side navigation -->
     <nav class="side-nav" id="sideNav">
         <div class="side-nav-title">Navigation</div>
-        <a href="#section-home" class="side-nav-item" data-section="section-home">Home Page</a>
-        <a href="#section-product" class="side-nav-item" data-section="section-product">Product Selection</a>
-        <a href="#section-history" class="side-nav-item" data-section="section-history">History</a>
-        <a href="#contact" class="side-nav-item" data-section="contact">Contact Us</a>
+        <a href="#section-home" class="side-nav-item" data-section="section-home"><img src="images/home-fill.svg"
+                alt="Home" style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Home Page</a>
+        <a href="#section-product" class="side-nav-item" data-section="section-product"><img
+                src="images/shopping-fill.svg" alt="Product Selection"
+                style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Product Selection</a>
+        <a href="#section-history" class="side-nav-item" data-section="section-history"><img
+                src="images/app%20store-fill.svg" alt="History"
+                style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">History</a>
+        <a href="#contact" class="side-nav-item" data-section="contact"><img src="images/mail-fill.svg" alt="History"
+                style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Contact Us</a>
+        <div class="side-nav-title" style="margin-top: 20px;">SHARE</div>
+        <a href="#" class="side-nav-item" onclick="shareToTwitter(event)"><img src="images/twitter-square-fill.svg"
+                alt="Twitter" style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Twitter</a>
+        <a href="#" class="side-nav-item" onclick="shareToFacebook(event)"><img src="images/facebook-fill.svg"
+                alt="Facebook"
+                style="width: 16px; height: 16px; margin-right: 8px; vertical-align: middle;">Facebook</a>
     </nav>
 
     <!-- Back to top button -->
@@ -646,6 +664,21 @@
                 }
             });
         });
+
+        function shareToTwitter(e) {
+            e.preventDefault();
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent(document.title);
+            const desc = encodeURIComponent(document.querySelector('meta[name="description"]')?.content || '');
+            const text = `${title} - ${desc}`;
+            window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank');
+        }
+
+        function shareToFacebook(e) {
+            e.preventDefault();
+            const url = encodeURIComponent(window.location.href);
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+        }
     </script>
 </body>
 

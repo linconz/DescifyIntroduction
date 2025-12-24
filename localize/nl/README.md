@@ -9,8 +9,11 @@ De **startpagina** dient als uw commandocentrum en biedt een realtime overzicht 
 
 <div align="center">
 
+
 ![Home Page Dashboard](images/1.%20Home%20Page.png)
+
 </div>
+
 
 #### Serienummers en labels
 1. **Generated Words (Gegenereerde woorden)**  
@@ -32,8 +35,11 @@ Beheer moeiteloos uw catalogus en configureer generatie-instellingen in de **Pro
 
 <div align="center">
 
+
 ![Product List Selection](images/2.%20Product%20List.png)
+
 </div>
+
 
 #### Serienummers en labels
 
@@ -50,7 +56,9 @@ Beheer moeiteloos uw catalogus en configureer generatie-instellingen in de **Pro
 
 ![Template Selection](images/3.%20Product%20List-Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Mode (Selectiemodus)**  
@@ -61,6 +69,16 @@ Beheer moeiteloos uw catalogus en configureer generatie-instellingen in de **Pro
    Klik hier om tussen verschillende pagina's te navigeren.
 7. **Initiate Generation (Generatie starten)**  
    Nadat u producten, sjablonen en voorkeurstaal heeft geselecteerd, klikt u hier om het beschrijvingsgeneratieproces te starten.
+8. **Description Length (Lengte van beschrijving)**
+   
+   Met Descify kunt u de lengte van gegenereerde productbeschrijvingen aanpassen, met keuze uit drie verschillende lengte-opties.
+   
+   **Short (Kort)** Ong. 200 woorden
+   
+   **Medium (Middel)** Ong. 400 woorden
+   
+   **Long (Lang)** Ong. 600 woorden
+
 
 ---
 
@@ -71,7 +89,9 @@ De **geschiedenis** is waar u uw inhoud beoordeelt, verfijnt en publiceert. Het 
 
 ![History Management](images/4.%20History.png)
 
+
 </div>
+
 
 #### Serienummers en labels
 1. **Search Box (Zoekvak)**  
@@ -84,7 +104,9 @@ De **geschiedenis** is waar u uw inhoud beoordeelt, verfijnt en publiceert. Het 
 
 ![Filter by Generation Status](images/5.%20History%20by%20Status.png)
 
+
 </div>
+
 
 3. **Filter by Template Type (Filteren op sjabloontype)**  
    Verfijn selectie volgens de gebruikte sjablooncategorie.
@@ -93,7 +115,9 @@ De **geschiedenis** is waar u uw inhoud beoordeelt, verfijnt en publiceert. Het 
 
 ![Filter by Template Type](images/6.%20History%20by%20Templates.png)
 
+
 </div>
+
 
 
 4. **Selection Options (Selectieopties)**  
@@ -116,7 +140,9 @@ De **geschiedenis** is waar u uw inhoud beoordeelt, verfijnt en publiceert. Het 
 
 ![Edit Mode](images/7.%20History%20by%20Editor.png)
 
+
 </div>
+
 
 9. **Page Size Adjustment (Paginagrootte aanpassing)**  
    Pas het aantal items per pagina aan met de opties: 10, 25 of 50.
