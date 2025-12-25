@@ -49,6 +49,16 @@ languageDirs.forEach(langCode => {
     htmlContent = htmlContent.replace(/<h3>2\.(.*?)<\/h3>/, '<h3 id="section-product">2.$1</h3>');
     htmlContent = htmlContent.replace(/<h3>3\.(.*?)<\/h3>/, '<h3 id="section-history">3.$1</h3>');
 
+    // 修正图片格式：将所有 .png 替换为 .webp
+    htmlContent = htmlContent.replace(/\.png/g, '.webp');
+
+    // 针对首屏 LCP 图片进行优化
+    // 添加 fetchpriority="high", width="2069", height="1111"
+    htmlContent = htmlContent.replace(
+        /<img src="\/images\/1\.%20Home%20Page\.webp" alt="Home Page Dashboard">/g,
+        '<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="2069" height="1111">'
+    );
+
     // 获取语言配置
     // 如果没有配置，使用默认英文（或空字符串以防止报错，但理论上应该都有）
     const config = languageConfig[langCode] || {
@@ -153,7 +163,7 @@ languageDirs.forEach(langCode => {
     <meta property="og:title" content="${config.ogTitle}">
     <meta property="og:description"
         content="${config.ogDescription}">
-    <meta property="og:image" content="/images/1.%20Home%20Page.png">
+    <meta property="og:image" content="/images/1.%20Home%20Page.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -161,7 +171,7 @@ languageDirs.forEach(langCode => {
     <meta property="twitter:title" content="${config.twitterTitle}">
     <meta property="twitter:description"
         content="${config.twitterDescription}">
-    <meta property="twitter:image" content="/images/1.%20Home%20Page.png">
+    <meta property="twitter:image" content="/images/1.%20Home%20Page.webp">
 
     <!-- JSON-LD Schema -->
     <script type="application/ld+json">
@@ -225,8 +235,13 @@ languageDirs.forEach(langCode => {
     }
     </script>
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+    <link rel="preload"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+    </noscript>
     <style>
         body {
             background-color: #ffffff;
