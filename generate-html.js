@@ -56,7 +56,7 @@ languageDirs.forEach(langCode => {
     // 添加 fetchpriority="high", width="2069", height="1111"
     htmlContent = htmlContent.replace(
         /<img src="\/images\/1\.%20Home%20Page\.webp" alt="Home Page Dashboard">/g,
-        '<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="2069" height="1111">'
+        '<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478">'
     );
 
     // 获取语言配置
