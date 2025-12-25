@@ -2,18 +2,11 @@
 <html lang="it" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6W3P2V9WKJ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-6W3P2V9WKJ');
-    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="image" href="/images/1.%20Home%20Page.webp" fetchpriority="high">
     <title>Descify: Generatore di descrizioni prodotti Shopify basato su IA</title>
 
     <!-- SEO Meta Tags -->
@@ -412,9 +405,7 @@
 <h3 id="section-home">1. Pagina iniziale: Approfondimenti a colpo d&#39;occhio</h3>
 <p>La <strong>pagina iniziale</strong> funge da centro di comando, fornendo una panoramica in tempo reale del tuo utilizzo e dei tuoi risparmi.</p>
 <div align="center">
-
-
-<p><img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478"></p>
+<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478">
 </div>
 
 
@@ -430,9 +421,7 @@ Fai clic qui per navigare alla cronologia di generazione</li>
 <h3 id="section-product">2. Selezione prodotti</h3>
 <p>Gestisci facilmente il tuo catalogo e configura le impostazioni di generazione nella vista <strong>Selezione prodotti</strong>.</p>
 <div align="center">
-
-
-<p><img src="/images/2.%20Product%20List.webp" alt="Product List Selection"></p>
+<img src="/images/2.%20Product%20List.webp" alt="Product List Selection">
 </div>
 
 
@@ -447,8 +436,7 @@ Fai clic qui per navigare alla cronologia di generazione</li>
 </li>
 </ol>
 <div align="center">
-
-<p><img src="/images/3.%20Product%20List-Templates.webp" alt="Template Selection"></p>
+<img src="/images/3.%20Product%20List-Templates.webp" alt="Template Selection">
 </div>
 
 
@@ -473,8 +461,7 @@ Fai clic qui per navigare alla cronologia di generazione</li>
 <h3 id="section-history">3. Cronologia</h3>
 <p>La <strong>cronologia</strong> è dove rivedi, perfeziona e pubblichi i tuoi contenuti. Offre potenti capacità di filtraggio e modifica.</p>
 <div align="center">
-
-<p><img src="/images/4.%20History.webp" alt="History Management"></p>
+<img src="/images/4.%20History.webp" alt="History Management">
 </div>
 
 
@@ -486,8 +473,7 @@ Fai clic qui per navigare alla cronologia di generazione</li>
 </li>
 </ol>
 <div align="center">
-
-<p><img src="/images/5.%20History%20by%20Status.webp" alt="Filter by Generation Status"></p>
+<img src="/images/5.%20History%20by%20Status.webp" alt="Filter by Generation Status">
 </div>
 
 
@@ -495,8 +481,7 @@ Fai clic qui per navigare alla cronologia di generazione</li>
 <li><strong>Filter by Template Type (Filtra per tipo di modello)</strong><br>Affina la selezione in base alla categoria di modello utilizzata.</li>
 </ol>
 <div align="center">
-
-<p><img src="/images/6.%20History%20by%20Templates.webp" alt="Filter by Template Type"></p>
+<img src="/images/6.%20History%20by%20Templates.webp" alt="Filter by Template Type">
 </div>
 
 
@@ -515,8 +500,7 @@ Descify fornisce un editor leggero semplificato.</p>
 </li>
 </ol>
 <div align="center">
-
-<p><img src="/images/7.%20History%20by%20Editor.webp" alt="Edit Mode"></p>
+<img src="/images/7.%20History%20by%20Editor.webp" alt="Edit Mode">
 </div>
 
 
@@ -593,13 +577,28 @@ Descify fornisce un editor leggero semplificato.</p>
     <!-- Back to top button -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
+    <!-- Google tag (gtag.js) Lazy Load -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-6W3P2V9WKJ');
+
+        window.addEventListener('load', function () {
+            var script = document.createElement('script');
+            script.src = "https://www.googletagmanager.com/gtag/js?id=G-6W3P2V9WKJ";
+            script.async = true;
+            document.head.appendChild(script);
+        });
+    </script>
+
     <script>
         // Back to top functionality
         const backToTopButton = document.getElementById('backToTop');
         
         // Show/hide button based on scroll position
         window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 300) {
+            if (window.scrollY > 300) {
                 backToTopButton.classList.add('show');
             } else {
                 backToTopButton.classList.remove('show');
@@ -634,7 +633,7 @@ Descify fornisce un editor leggero semplificato.</p>
         
         function updateActiveNav() {
             let currentSection = '';
-            const scrollPosition = window.pageYOffset + 100;
+            const scrollPosition = window.scrollY + 100;
             
             // Find current section
             sections.forEach(sectionId => {

@@ -2,18 +2,11 @@
 <html lang="ko" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6W3P2V9WKJ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-6W3P2V9WKJ');
-    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="image" href="/images/1.%20Home%20Page.webp" fetchpriority="high">
     <title>Descify: AI 기반 Shopify 제품 설명 생성기</title>
 
     <!-- SEO Meta Tags -->
@@ -412,9 +405,7 @@
 <h3 id="section-home">1. 홈페이지: 한눈에 보는 인사이트</h3>
 <p><strong>홈페이지</strong>는 사용량과 절약 시간에 대한 실시간 개요를 제공하는 명령 센터입니다.</p>
 <div align="center">
-
-
-<p><img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478"></p>
+<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478">
 </div>
 
 
@@ -430,9 +421,7 @@
 <h3 id="section-product">2. 제품 선택</h3>
 <p><strong>제품 선택</strong> 보기에서 카탈로그를 쉽게 관리하고 생성 설정을 구성할 수 있습니다.</p>
 <div align="center">
-
-
-<p><img src="/images/2.%20Product%20List.webp" alt="Product List Selection"></p>
+<img src="/images/2.%20Product%20List.webp" alt="Product List Selection">
 </div>
 
 
@@ -447,8 +436,7 @@
 </li>
 </ol>
 <div align="center">
-
-<p><img src="/images/3.%20Product%20List-Templates.webp" alt="Template Selection"></p>
+<img src="/images/3.%20Product%20List-Templates.webp" alt="Template Selection">
 </div>
 
 
@@ -473,8 +461,7 @@
 <h3 id="section-history">3. 기록</h3>
 <p><strong>기록</strong>은 콘텐츠를 검토하고 개선하며 게시하는 곳입니다. 강력한 필터링 및 편집 기능을 제공합니다.</p>
 <div align="center">
-
-<p><img src="/images/4.%20History.webp" alt="History Management"></p>
+<img src="/images/4.%20History.webp" alt="History Management">
 </div>
 
 
@@ -486,8 +473,7 @@
 </li>
 </ol>
 <div align="center">
-
-<p><img src="/images/5.%20History%20by%20Status.webp" alt="Filter by Generation Status"></p>
+<img src="/images/5.%20History%20by%20Status.webp" alt="Filter by Generation Status">
 </div>
 
 
@@ -495,8 +481,7 @@
 <li><strong>Filter by Template Type (템플릿 유형별 필터)</strong><br>사용된 템플릿 카테고리에 따라 선택을 세분화합니다.</li>
 </ol>
 <div align="center">
-
-<p><img src="/images/6.%20History%20by%20Templates.webp" alt="Filter by Template Type"></p>
+<img src="/images/6.%20History%20by%20Templates.webp" alt="Filter by Template Type">
 </div>
 
 
@@ -514,8 +499,7 @@
 </li>
 </ol>
 <div align="center">
-
-<p><img src="/images/7.%20History%20by%20Editor.webp" alt="Edit Mode"></p>
+<img src="/images/7.%20History%20by%20Editor.webp" alt="Edit Mode">
 </div>
 
 
@@ -592,13 +576,28 @@
     <!-- Back to top button -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
+    <!-- Google tag (gtag.js) Lazy Load -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-6W3P2V9WKJ');
+
+        window.addEventListener('load', function () {
+            var script = document.createElement('script');
+            script.src = "https://www.googletagmanager.com/gtag/js?id=G-6W3P2V9WKJ";
+            script.async = true;
+            document.head.appendChild(script);
+        });
+    </script>
+
     <script>
         // Back to top functionality
         const backToTopButton = document.getElementById('backToTop');
         
         // Show/hide button based on scroll position
         window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 300) {
+            if (window.scrollY > 300) {
                 backToTopButton.classList.add('show');
             } else {
                 backToTopButton.classList.remove('show');
@@ -633,7 +632,7 @@
         
         function updateActiveNav() {
             let currentSection = '';
-            const scrollPosition = window.pageYOffset + 100;
+            const scrollPosition = window.scrollY + 100;
             
             // Find current section
             sections.forEach(sectionId => {

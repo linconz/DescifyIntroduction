@@ -59,6 +59,13 @@ languageDirs.forEach(langCode => {
         '<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478">'
     );
 
+    // 移除 <div align="center"> 内部图片外层的 <p> 标签
+    htmlContent = htmlContent.replace(
+        /<div align="center">\s*<p>(<img.*?>)<\/p>\s*<\/div>/gs,
+        '<div align="center">\n$1\n</div>'
+    );
+
+
     // 获取语言配置
     // 如果没有配置，使用默认英文（或空字符串以防止报错，但理论上应该都有）
     const config = languageConfig[langCode] || {
@@ -134,18 +141,11 @@ languageDirs.forEach(langCode => {
 <html lang="${config.lang}" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6W3P2V9WKJ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-6W3P2V9WKJ');
-    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="image" href="/images/1.%20Home%20Page.webp" fetchpriority="high">
     <title>${config.title}</title>
 
     <!-- SEO Meta Tags -->
@@ -534,13 +534,28 @@ ${htmlContent}
     <!-- Back to top button -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
+    <!-- Google tag (gtag.js) Lazy Load -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-6W3P2V9WKJ');
+
+        window.addEventListener('load', function () {
+            var script = document.createElement('script');
+            script.src = "https://www.googletagmanager.com/gtag/js?id=G-6W3P2V9WKJ";
+            script.async = true;
+            document.head.appendChild(script);
+        });
+    </script>
+
     <script>
         // Back to top functionality
         const backToTopButton = document.getElementById('backToTop');
         
         // Show/hide button based on scroll position
         window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 300) {
+            if (window.scrollY > 300) {
                 backToTopButton.classList.add('show');
             } else {
                 backToTopButton.classList.remove('show');
@@ -575,7 +590,7 @@ ${htmlContent}
         
         function updateActiveNav() {
             let currentSection = '';
-            const scrollPosition = window.pageYOffset + 100;
+            const scrollPosition = window.scrollY + 100;
             
             // Find current section
             sections.forEach(sectionId => {
