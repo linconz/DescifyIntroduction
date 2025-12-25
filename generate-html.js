@@ -574,7 +574,6 @@ languageDirs.forEach(langCode => {
 
         .lang-option:hover {
             background: #f6f8fa;
-            border: 1px solid #d0d7de;
         }
 
         .lang-option.current {
