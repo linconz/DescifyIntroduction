@@ -18,6 +18,163 @@ const languageDirs = fs.readdirSync(localizeDir)
 
 console.log(`找到 ${languageDirs.length} 个语言目录：${languageDirs.join(', ')}\n`);
 
+const altTextTranslations = {
+    '1. Home Page.webp': {
+        ar: 'لوحة تحكم صفحة Descify الرئيسية',
+        da: 'Descify Startside Dashboard',
+        de: 'Descify Startseite Dashboard',
+        es: 'Panel de control de la página de inicio de Descify',
+        fi: 'Descify Etusivun kojelauta',
+        fr: 'Tableau de bord de la page d\'accueil Descify',
+        it: 'Cruscotto della pagina iniziale di Descify',
+        ja: 'Descify ホームページダッシュボード',
+        ko: 'Descify 홈페이지 대시보드',
+        nl: 'Descify Startpagina Dashboard',
+        no: 'Descify Hjemmeside Dashboard',
+        pl: 'Pulpit nawigacyjny strony głównej Descify',
+        pt: 'Painel da página inicial do Descify',
+        ru: 'Панель управления домашней страницей Descify',
+        sv: 'Descify Hemsida Dashboard',
+        th: 'แดชบอร์ดหน้าแรกของ Descify',
+        tr: 'Descify Ana Sayfa Paneli',
+        'zh-Hans': 'Descify 首页仪表盘',
+        'zh-Hant': 'Descify 首頁儀表板',
+        en: 'Descify Home Page Dashboard'
+    },
+    '2. Product List.webp': {
+        ar: 'اختيار قائمة منتجات Descify',
+        da: 'Descify Produktliste Valg',
+        de: 'Descify Produktliste Auswahl',
+        es: 'Selección de lista de productos de Descify',
+        fi: 'Descify Tuoteluettelon valinta',
+        fr: 'Sélection de la liste de produits Descify',
+        it: 'Selezione elenco prodotti Descify',
+        ja: 'Descify 商品リスト選択',
+        ko: 'Descify 상품 목록 선택',
+        nl: 'Descify Productlijst Selectie',
+        no: 'Descify Produktliste Utvalg',
+        pl: 'Wybór listy produktów Descify',
+        pt: 'Seleção da lista de produtos do Descify',
+        ru: 'Выбор списка продуктов Descify',
+        sv: 'Descify Produktlista Urval',
+        th: 'การเลือกรายการสินค้า Descify',
+        tr: 'Descify Ürün Listesi Seçimi',
+        'zh-Hans': 'Descify 商品列表选择',
+        'zh-Hant': 'Descify 商品列表選擇',
+        en: 'Descify Product List Selection'
+    },
+    '3. Product List-Templates.webp': {
+        ar: 'اختيار قوالب Descify',
+        da: 'Descify Skabelonvalg',
+        de: 'Descify Vorlagenauswahl',
+        es: 'Selección de plantillas de Descify',
+        fi: 'Descify Mallivalinta',
+        fr: 'Sélection de modèles Descify',
+        it: 'Selezione modelli Descify',
+        ja: 'Descify テンプレート選択',
+        ko: 'Descify 템플릿 선택',
+        nl: 'Descify Sjabloonselectie',
+        no: 'Descify Malvalg',
+        pl: 'Wybór szablonu Descify',
+        pt: 'Seleção de modelos do Descify',
+        ru: 'Выбор шаблона Descify',
+        sv: 'Descify Mallurval',
+        th: 'การเลือกเทมเพลต Descify',
+        tr: 'Descify Şablon Seçimi',
+        'zh-Hans': 'Descify 模板选择',
+        'zh-Hant': 'Descify 模板選擇',
+        en: 'Descify Template Selection'
+    },
+    '4. History.webp': {
+        ar: 'إدارة سجل Descify',
+        da: 'Descify Historikstyring',
+        de: 'Descify Verlaufsverwaltung',
+        es: 'Gestión del historial de Descify',
+        fi: 'Descify Historian hallinta',
+        fr: 'Gestion de l\'historique Descify',
+        it: 'Gestione cronologia Descify',
+        ja: 'Descify履歴管理',
+        ko: 'Descify 기록 관리',
+        nl: 'Descify Geschiedenisbeheer',
+        no: 'Descify Historikkforvaltning',
+        pl: 'Zarządzanie historią Descify',
+        pt: 'Gerenciamento do histórico do Descify',
+        ru: 'Управление историей Descify',
+        sv: 'Descify Historikhantering',
+        th: 'การจัดการประวัติ Descify',
+        tr: 'Descify Geçmiş Yönetimi',
+        'zh-Hans': 'Descify 历史记录管理',
+        'zh-Hant': 'Descify 歷史記錄管理',
+        en: 'Descify History Management'
+    },
+    '5. History by Status.webp': {
+        ar: 'تصفية Descify حسب حالة التوليد',
+        da: 'Descify Filtrer efter genereringsstatus',
+        de: 'Descify Nach Generierungsstatus filtern',
+        es: 'Filtro de Descify por estado de generación',
+        fi: 'Descify Suodata luomistilan mukaan',
+        fr: 'Filtre Descify par statut de génération',
+        it: 'Filtro Descify per stato di generazione',
+        ja: 'Descify 生成ステータスでフィルタリング',
+        ko: 'Descify 생성 상태로 필터링',
+        nl: 'Descify Filteren op generatiestatus',
+        no: 'Descify Filtrer etter genereringsstatus',
+        pl: 'Filtrowanie Descify według statusu generowania',
+        pt: 'Filtro do Descify por status de geração',
+        ru: 'Фильтр Descify по статусу генерации',
+        sv: 'Descify Filtrera efter genereringsstatus',
+        th: 'ตัวกรอง Descify ตามสถานะการสร้าง',
+        tr: 'Descify Oluşturma Durumuna Göre Filtrele',
+        'zh-Hans': 'Descify 按生成状态筛选',
+        'zh-Hant': 'Descify 按生成狀態篩選',
+        en: 'Descify Filter by Generation Status'
+    },
+    '6. History by Templates.webp': {
+        ar: 'تصفية Descify حسب نوع القالب',
+        da: 'Descify Filtrer efter skabelontype',
+        de: 'Descify Nach Vorlagentyp filtern',
+        es: 'Filtro de Descify por tipo de plantilla',
+        fi: 'Descify Suodata mallityypin mukaan',
+        fr: 'Filtre Descify par type de modèle',
+        it: 'Filtro Descify per tipo di modello',
+        ja: 'Descify テンプレートタイプでフィルタリング',
+        ko: 'Descify 템플릿 유형으로 필터링',
+        nl: 'Descify Filteren op sjabloontype',
+        no: 'Descify Filtrer etter maltype',
+        pl: 'Filtrowanie Descify według typu szablonu',
+        pt: 'Filtro do Descify por tipo de modelo',
+        ru: 'Фильтр Descify по типу шаблона',
+        sv: 'Descify Filtrera efter malltyp',
+        th: 'ตัวกรอง Descify ตามประเภทเทมเพลต',
+        tr: 'Descify Şablon Türüne Göre Filtrele',
+        'zh-Hans': 'Descify 按模板类型筛选',
+        'zh-Hant': 'Descify 按模板類型篩選',
+        en: 'Descify Filter by Template Type'
+    },
+    '7. History by Editor.webp': {
+        ar: 'وضع تحرير Descify',
+        da: 'Descify Redigeringstilstand',
+        de: 'Descify Bearbeitungsmodus',
+        es: 'Modo de edición de Descify',
+        fi: 'Descify Muokkaustila',
+        fr: 'Mode édition Descify',
+        it: 'Modalità modifica Descify',
+        ja: 'Descify 編集モード',
+        ko: 'Descify 편집 모드',
+        nl: 'Descify Bewerkingsmodus',
+        no: 'Descify Redigeringsmodus',
+        pl: 'Tryb edycji Descify',
+        pt: 'Modo de edição do Descify',
+        ru: 'Режим редактирования Descify',
+        sv: 'Descify Redigeringsläge',
+        th: 'โหมดแก้ไข Descify',
+        tr: 'Descify Düzenleme Modu',
+        'zh-Hans': 'Descify 编辑模式',
+        'zh-Hant': 'Descify 編輯模式',
+        en: 'Descify Edit Mode'
+    }
+};
+
 // 为每个语言生成 HTML
 languageDirs.forEach(langCode => {
     const readmePath = path.join(localizeDir, langCode, 'README.md');
@@ -52,12 +209,54 @@ languageDirs.forEach(langCode => {
     // 修正图片格式：将所有 .png 替换为 .webp
     htmlContent = htmlContent.replace(/\.png/g, '.webp');
 
-    // 针对首屏 LCP 图片进行优化
-    // 添加 fetchpriority="high", width="2069", height="1111"
-    htmlContent = htmlContent.replace(
-        /<img src="\/images\/1\.%20Home%20Page\.webp" alt="Home Page Dashboard">/g,
-        '<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478">'
-    );
+    // 定义需要优化图片的列表
+    const responsiveImages = [
+        '1. Home Page.webp',
+        '2. Product List.webp',
+        '4. History.webp',
+        '7. History by Editor.webp'
+    ];
+
+    // 遍历替换这些图片为带有 srcset 的版本
+    responsiveImages.forEach(imgName => {
+        const encodedName = encodeURIComponent(imgName).replace(/%20/g, '%20'); // Simple encode for replace
+        // Regex pattern to find the image. Note: .webp replacement happens before this.
+        // Handling both plain img and already modified LCP img (for Home Page)
+        // Check specifically for Home Page first as it might have attributes added by previous regex (though I see I am replacing that logic blocks below)
+    });
+
+    // 替换图片并注入本地化的 alt 文本
+    // 同时也应用 srcset 优化
+    Object.keys(altTextTranslations).forEach(imgName => {
+        const localizedAlt = altTextTranslations[imgName][langCode] || altTextTranslations[imgName]['en'];
+        const encodedName = imgName.replace(/ /g, '%20');
+        const imgSrc = `/images/${encodedName}`;
+
+        let newImgTag = '';
+
+        if (imgName === '1. Home Page.webp') {
+            newImgTag = `<img src="${imgSrc}" srcset="/images/1.%20Home%20Page_resize.webp 800w, /images/1.%20Home%20Page.webp 1600w" sizes="(max-width: 800px) 100vw, 890px" alt="${localizedAlt}" fetchpriority="high" width="890" height="478">`;
+        } else if (['2. Product List.webp', '4. History.webp', '7. History by Editor.webp'].includes(imgName)) {
+            const resizeName = imgName.replace('.webp', '_resize.webp').replace(/ /g, '%20');
+            newImgTag = `<img src="${imgSrc}" srcset="/images/${resizeName} 800w, /images/${encodedName} 1600w" sizes="(max-width: 800px) 100vw, 890px" alt="${localizedAlt}">`;
+        } else {
+            // 对于非 responsive 优化的图片，仅更新 alt
+            newImgTag = `<img src="${imgSrc}" alt="${localizedAlt}">`;
+        }
+
+        // 使用正则替换，注意转义特殊字符
+        const regexName = encodedName.replace(/\./g, '\\.').replace(/%20/g, '%20'); // src match
+
+        // 匹配原本的 img 标签，忽略其它属性的变化（因为上面步骤可能已经替换过 alt 或 src）
+        // 但这里我们是在 markdown -> html 之后。
+        // 为了稳健，我们构建一个针对性的正则。
+        // 注意：之前的代码已经有针对特定图片的替换逻辑，我们需要替换掉它们或者确保这段代码在其之后运行并覆盖，或者重写上面的逻辑。
+        // 现在的策略是：删除上方硬编码的 specific replacement，统一在这里处理。
+
+        // 构造匹配该图片 src 的正则，不论其余属性如何
+        const regex = new RegExp(`<img src="${regexName}"[^>]*>`, 'g');
+        htmlContent = htmlContent.replace(regex, newImgTag);
+    });
 
     // 移除 <div align="center"> 内部图片外层的 <p> 标签
     htmlContent = htmlContent.replace(
@@ -65,6 +264,17 @@ languageDirs.forEach(langCode => {
         '<div align="center">\n$1\n</div>'
     );
 
+    // 在第一个 H2 标签前插入 Shopify App Store 链接 (移动端优化)
+    const shopifyCtaHtml = `
+<div class="mobile-cta" align="center" style="margin: 20px 0;">
+    <a href="https://apps.shopify.com/descify" target="_blank">
+        <img src="/images/badge-shopify-app-store-dark.svg" alt="Descify on Shopify App Store" style="width: 180px;">
+    </a>
+</div>`;
+    htmlContent = htmlContent.replace('<h2>', shopifyCtaHtml + '\n<h2>');
+
+    // 在底部联系我们前插入第二个 Shopify App Store 链接 (移动端优化)
+    // 逻辑移动到模板拼接处
 
     // 获取语言配置
     // 如果没有配置，使用默认英文（或空字符串以防止报错，但理论上应该都有）
@@ -257,8 +467,13 @@ languageDirs.forEach(langCode => {
             position: relative; /* 添加相对定位，使语言切换器相对于此容器定位 */
         }
 
+        .markdown-body h1 {
+            font-size: 2em;
+        }
+
         .markdown-body img {
             max-width: 100%;
+            height: auto;
             border-style: none;
             /* Ensure no border on images */
             /* Add some spacing for images */
@@ -275,6 +490,16 @@ languageDirs.forEach(langCode => {
             .markdown-body {
                 padding: 15px;
             }
+        }
+
+        @media (max-width: 1400px) {
+            .mobile-cta {
+                display: block !important;
+            }
+        }
+
+        .mobile-cta {
+            display: none;
         }
 
         /* Add a footer style */
@@ -487,6 +712,7 @@ languageDirs.forEach(langCode => {
             </div>
         </div>
 ${htmlContent}
+${shopifyCtaHtml}
 <p id="contact">${config.contactUs}: contact@getbestify.com</p>
 <p>&copy; 2025 Descify powered by GetBestify. ${config.copyright}.</p>
 

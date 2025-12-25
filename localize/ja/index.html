@@ -151,8 +151,13 @@
             position: relative; /* 添加相对定位，使语言切换器相对于此容器定位 */
         }
 
+        .markdown-body h1 {
+            font-size: 2em;
+        }
+
         .markdown-body img {
             max-width: 100%;
+            height: auto;
             border-style: none;
             /* Ensure no border on images */
             /* Add some spacing for images */
@@ -169,6 +174,16 @@
             .markdown-body {
                 padding: 15px;
             }
+        }
+
+        @media (max-width: 1400px) {
+            .mobile-cta {
+                display: block !important;
+            }
+        }
+
+        .mobile-cta {
+            display: none;
         }
 
         /* Add a footer style */
@@ -401,11 +416,17 @@
         </div>
 <h1>Descify：AI搭載のShopify商品説明ジェネレーター</h1>
 <p><strong>Descify</strong>は、Eコマース事業者向けのコピーライティングプロセスを自動化・最適化するために設計された包括的なShopifyアプリケーションです。高度なAIを活用することで、Descifyは店舗オーナーが高品質でSEOに最適化され、コンバージョンに焦点を当てた商品説明を一括生成し、手作業の時間を大幅に削減します。</p>
+
+<div class="mobile-cta" align="center" style="margin: 20px 0;">
+    <a href="https://apps.shopify.com/descify" target="_blank">
+        <img src="/images/badge-shopify-app-store-dark.svg" alt="Descify on Shopify App Store" style="width: 180px;">
+    </a>
+</div>
 <h2>🚀 主要機能の概要</h2>
 <h3 id="section-home">1. ホームページ：一目でわかるインサイト</h3>
 <p><strong>ホームページ</strong>は、使用状況と節約時間をリアルタイムで把握できるコマンドセンターです。</p>
 <div align="center">
-<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478">
+<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard">
 </div>
 
 
@@ -529,6 +550,12 @@
 </ul>
 <hr>
 
+
+<div class="mobile-cta" align="center" style="margin: 20px 0;">
+    <a href="https://apps.shopify.com/descify" target="_blank">
+        <img src="/images/badge-shopify-app-store-dark.svg" alt="Descify on Shopify App Store" style="width: 180px;">
+    </a>
+</div>
 <p id="contact">お問い合わせ: contact@getbestify.com</p>
 <p>&copy; 2025 Descify powered by GetBestify. 全著作権所有.</p>
 

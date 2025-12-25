@@ -151,8 +151,13 @@
             position: relative; /* 添加相对定位，使语言切换器相对于此容器定位 */
         }
 
+        .markdown-body h1 {
+            font-size: 2em;
+        }
+
         .markdown-body img {
             max-width: 100%;
+            height: auto;
             border-style: none;
             /* Ensure no border on images */
             /* Add some spacing for images */
@@ -169,6 +174,16 @@
             .markdown-body {
                 padding: 15px;
             }
+        }
+
+        @media (max-width: 1400px) {
+            .mobile-cta {
+                display: block !important;
+            }
+        }
+
+        .mobile-cta {
+            display: none;
         }
 
         /* Add a footer style */
@@ -401,11 +416,17 @@
         </div>
 <h1>Descify: Генератор описаний продуктов Shopify на основе ИИ</h1>
 <p><strong>Descify</strong> — это комплексное приложение Shopify, разработанное для автоматизации и оптимизации процесса копирайтинга для продавцов электронной коммерции. Используя передовой ИИ, Descify помогает владельцам магазинов массово генерировать высококачественные, SEO-оптимизированные и ориентированные на конверсию описания продуктов, экономя часы ручной работы.</p>
+
+<div class="mobile-cta" align="center" style="margin: 20px 0;">
+    <a href="https://apps.shopify.com/descify" target="_blank">
+        <img src="/images/badge-shopify-app-store-dark.svg" alt="Descify on Shopify App Store" style="width: 180px;">
+    </a>
+</div>
 <h2>🚀 Обзор ключевых функций</h2>
 <h3 id="section-home">1. Главная страница: Информация с первого взгляда</h3>
 <p><strong>Главная страница</strong> служит вашим командным центром, предоставляя обзор вашего использования и экономии в реальном времени.</p>
 <div align="center">
-<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard" fetchpriority="high" width="890" height="478">
+<img src="/images/1.%20Home%20Page.webp" alt="Home Page Dashboard">
 </div>
 
 
@@ -530,6 +551,12 @@ Descify предоставляет упрощенный легкий редак�
 </ul>
 <hr>
 
+
+<div class="mobile-cta" align="center" style="margin: 20px 0;">
+    <a href="https://apps.shopify.com/descify" target="_blank">
+        <img src="/images/badge-shopify-app-store-dark.svg" alt="Descify on Shopify App Store" style="width: 180px;">
+    </a>
+</div>
 <p id="contact">Свяжитесь с нами: contact@getbestify.com</p>
 <p>&copy; 2025 Descify powered by GetBestify. Все права защищены.</p>
 
