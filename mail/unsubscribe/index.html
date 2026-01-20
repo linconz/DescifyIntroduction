@@ -18,6 +18,22 @@
         // 打印id参数
         console.log(id);
     </script>
+
+    <!-- Google tag (gtag.js) Lazy Load -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-6W3P2V9WKJ');
+
+        window.addEventListener('load', function () {
+            var script = document.createElement('script');
+            script.src = "https://www.googletagmanager.com/gtag/js?id=G-6W3P2V9WKJ";
+            script.async = true;
+            document.head.appendChild(script);
+        });
+    </script>
+
 </body>
 
 </html>
