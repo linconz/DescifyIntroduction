@@ -1,1 +1,23 @@
-Unsubscription success.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsubscription Success</title>
+</head>
+
+<body>
+    <h1>Unsubscription success.</h1>
+
+    <script>
+        // 获取URL中的GET参数
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+
+        // 打印id参数
+        console.log(id);
+    </script>
+</body>
+
+</html>
